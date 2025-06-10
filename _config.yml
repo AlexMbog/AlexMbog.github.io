@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Alex Mbogo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Hi, I'm Alex Mbogo, a passionate and detail-oriented Computer Science graduate with a deep interest in Cybersecurity and Software Engineering. I love building secure and scalable applications and have real-world experience in mobile development with React Native, cloud technologies, and web security."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
