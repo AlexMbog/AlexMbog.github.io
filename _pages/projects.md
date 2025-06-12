@@ -11,9 +11,11 @@ Here are a few highlights from my work in cybersecurity, mobile development, and
 
 ---
 
-## 🔐 Cybersecurity Threat Report  
-A detailed analysis of OWASP Top 10, IDOR prevention, and mitigation strategies.  
-[📄 View PDF](assets/projectFile/cybersecurity_threat_analysis.pdf)
+## 🔐 Cloud Governance  
+To create a proof of concept application that makes use of the Azure SQL Database support for Always Encrypted functionality. All of the secrets and keys used in this scenario should be stored in Key Vault. The application should be registered in Microsoft Entra ID in order to enhance its security posture. To accomplish these objectives, the proof of concept  includes:
+    • Creating an Azure Key Vault and storing keys and secrets in the vault. 
+    • Create a SQL Database and encrypting content of columns in database tables by using Always Encrypted.   
+[📄 View PDF](assets/ProjectFile/LAB: Key Vault (Implementing Secure Data by setting up Always Encrypted).odt)
 
 ---
 
