@@ -2,7 +2,7 @@ main:
   - title: "Resume"
     url: /posts/
   - title: "Projects"
-    url: /categories/
+    url: /projects/       # ✅ Custom page now
   - title: "Blogs"
     url: /tags/
   - title: "About"
