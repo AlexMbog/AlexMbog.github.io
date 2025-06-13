@@ -2,9 +2,9 @@ main:
   - title: "Resume"
     url: /resume/
   - title: "Projects"
-    url: /projects/       # ✅ Custom page now
- - title: "Labs"
-    url: /Labs/
+    url: /projects/
+  - title: "Labs"
+    url: /labs/
   - title: "Blogs"
     url: /tags/
   - title: "Contact"
