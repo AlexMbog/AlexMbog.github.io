@@ -15,7 +15,7 @@ Here are a few highlights from my work in cloud security:
 To create a proof of concept application that makes use of the Azure SQL Database support for Always Encrypted functionality. All of the secrets and keys used in this scenario should be stored in Key Vault. The application should be registered in Microsoft Entra ID in order to enhance its security posture. To accomplish these objectives, the proof of concept  includes:
     • Creating an Azure Key Vault and storing keys and secrets in the vault. 
     • Create a SQL Database and encrypting content of columns in database tables by using Always Encrypted.   
-[📄 View PDF](assets/ProjectFile/LAB_KeyVault.odt)
+[📄 View PDF](/assets/ProjectFile/LAB_KeyVault.odt)
 
 ---
 
