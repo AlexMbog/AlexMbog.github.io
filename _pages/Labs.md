@@ -23,7 +23,7 @@ To create a proof of concept application that makes use of the Azure SQL Databas
 Securing Azure SQL Database (Expected Duration 1 hours, 30 minutes)
 AZ-500T00-A Microsoft Azure Security Technologies [Cloud Slice Provided], Lab 05 (CSR)
 
-[📄 View PDF](assets/projects/mobile_ui_portfolio.pdf)
+[📄 View PDF](/assets/projects/mobile_ui_portfolio.pdf)
 
 ---
 
@@ -37,14 +37,14 @@ In this lab, i demonstrate how to:
 CLI).
 • Assign the Virtual Machine Contributor role to the Service Desk group.
 
-[📄 View PDF](assets/ProjectFile/Lab_RoleBasedAccessControl.pdf)
+[📄 View PDF](/assets/ProjectFile/Lab_RoleBasedAccessControl.pdf)
 
 
 ---
 ## ☁️ Cloud Security
 Network Security Groups and Application Security Groups
 Architecture for deploying scalable, secure apps on Azure.  
-[📄 View PDF](assets/ProjectFile/Az-500Week6lab.pdf)
+[📄 View PDF](/assets/ProjectFile/Az-500Week6lab.pdf)
  
 
 ---
