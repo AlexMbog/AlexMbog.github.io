@@ -1,7 +1,7 @@
 ---
 title: "MY Labs"
 layout: single
-permalink: /Labs/
+permalink: /labs/
 author_profile: true
 ---
 
