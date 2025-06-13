@@ -5,7 +5,6 @@
 layout: single
 author_profile: true
 ---
-# Alex Mbogo
 
 **Cybersecurity Enthusiast | Software Developer | Ethical Hacker**  
 📍 Nairobi, Kenya  
