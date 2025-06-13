@@ -1,6 +1,6 @@
 main:
   - title: "Resume"
-    url: /posts/
+    url: /resume/
   - title: "Projects"
     url: /projects/       # ✅ Custom page now
  - title: "Labs"
