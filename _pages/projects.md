@@ -1,24 +1,29 @@
----
+----
 title: "Projects"
 layout: single
 permalink: /projects/
 author_profile: true
 ---
 
-# 🚀 Projects & Case Studies
-
-Here are a few highlights from my work in cybersecurity, mobile development, and cloud systems:
+# 💼 Projects & Labs
 
 ---
-## 📱 A Bootsrap, Js , Html , CSS based Portfolio 
-Showcase of Bootsrap design for a Personal portfolio.  
 
-[📄 View PDF](https://github.com/AlexMbog/Porfolio)
+## 🛢️ SQL Projects
+
+- [📄 Sql Journal](/assets/ProjectFile/sql/query_lab1.pdf)
+- [📄 SQL Injection Demo](/assets/ProjectFile/sql/sql_injection_demo.pdf)
+
 ---
 
-## 📱 Mobile UI Portfolio  
-Showcase of React Native designs for a meditation app and grocery app.  
+## ☁️ Cloud Security
 
-[📄 View PDF](/assets/projects/mobile_ui_portfolio.pdf)
+- [📄 Azure Key Vault Lab](/assets/ProjectFile/cloud/az500_keyvault_lab.pdf)
+
+---
+
+## 📱 Mobile UI
+
+- [📄 React Native UI Showcase](/assets/ProjectFile/mobile/reactnative_ui_showcase.pdf)
 
 
