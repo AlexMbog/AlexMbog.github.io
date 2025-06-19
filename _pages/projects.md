@@ -17,11 +17,20 @@ author_profile: true
 ---
 
 ## ☁️ Cloud Security
+My azure security practical lab demonstrations and detailed reports 
 
-- [📄 Azure Key Vault Lab](/assets/ProjectFile/az500_keyvault_lab.pdf)
+- [📄 View PDF](https://alexmbog.github.io/labs/))
 
 ---
 
+## 📱 A Bootsrap, Js , Html , CSS based Portfolio Add commentMore actions
+
+Showcase of Bootsrap design for a Personal portfolio.  
+
+[📄 View PDF](https://github.com/AlexMbog/Porfolio)
+
+
+---
 ## 📱 Mobile UI
 
 - [📄 React Native UI Showcase](/assets/ProjectFile/reactnative_ui_showcase.pdf)
