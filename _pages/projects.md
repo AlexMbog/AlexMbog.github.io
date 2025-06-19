@@ -9,7 +9,9 @@ author_profile: true
 
 ---
 
-## 🛢️ SQL Projects
+# Pentesting Projects
+---
+## 🛢️ SQL injection Projects
 
 - [📄 Sql Journal](/assets/ProjectFile/Sql/SqlJournal.pdf)
 - [📄 SQL Injection Demo](/assets/ProjectFile/sql/SqlInjectionDemo.pdf)
