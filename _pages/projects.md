@@ -7,8 +7,6 @@ author_profile: true
 
 # 💼 Projects & Labs
 
----
-
 # Pentesting Projects
 ---
 ## 🛢️ SQL injection Projects
