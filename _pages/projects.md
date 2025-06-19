@@ -12,7 +12,7 @@ author_profile: true
 ## 🛢️ SQL injection Projects
 
 - [📄 Sql Journal](/assets/ProjectFile/Sql/SqlJournal.pdf)
-- [📄 SQL Injection Demo](/assets/ProjectFile/sql/SqlInjectionDemo.pdf)
+- [📄 SQL Injection Demo](/assets/ProjectFile/Sql/SqlInjectionDemo.pdf)
 
 ---
 
