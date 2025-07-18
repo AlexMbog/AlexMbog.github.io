@@ -6,7 +6,7 @@ layout: single
 author_profile: true
 ---
 
-**Cybersecurity Enthusiast | Software Developer | Ethical Hacker**  
+**Cloud Securty  | Software Developer | Ethical Hacker**  
 📍 Nairobi, Kenya  
 📧 [evansnjiru5@gmail.com](mailto:evansnjiru5@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/alexevans) | [GitHub](https://github.com/AlexMbog)
@@ -15,7 +15,7 @@ author_profile: true
 
 ## 👋 Welcome
 
-Hi, I'm **Alex Mbogo**, a passionate and detail-oriented **Computer Science graduate** with a deep interest in **Cybersecurity** and **Software Engineering**. I love building secure and scalable applications and have real-world experience in **mobile development** with **React Native**, **cloud technologies**, and **web security**.
+Hi, I'm **Alex Mbogo**, a passionate *Tech Savy* with a deep interest in **Cybersecurity** and **Software Engineering**. I love building secure and scalable applications and have real-world experience in **mobile development** with **React Native**, **cloud technologies**, and **web security**.
 
 ---
 
