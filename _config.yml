@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Alex Mbogo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hi, I'm Alex Mbogo, a passionate and detail-oriented Computer Science graduate with a deep interest in Cybersecurity and Software Engineering. I love building secure and scalable applications and have real-world experience in mobile development with React Native, cloud technologies, and web security."
+  bio    : "Cloud Security. SC900 and Az500"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
