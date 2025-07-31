@@ -13,7 +13,7 @@ I’m a detail-oriented Computer Science graduate with a strong foundation in **
 
 ## 🎓 Education
 
-- **BSc. Computer Science**, St. Paul's University – *Expected Nov 2024*  
+- **BSc. Computer Science**, St. Paul's University – *Awarded Nov 2024*  
 - **Diploma in Computer Science**, St. Paul's University – *2021*
 
 ---
@@ -25,12 +25,14 @@ I’m a detail-oriented Computer Science graduate with a strong foundation in **
 - Delivered IT support across the department  
 - Implemented security policies and supported infrastructure upgrades
 
-**Web Developer (Remote)** – *Nick Photography*  
+**Web Developer (Remote)** – 
 *Feb 2025 – Mar 2025*  
 - Designed and deployed a GitHub portfolio site  
 - Focused on performance and UI optimization
 
 ---
+**Remote (Remote)** – *Mobile app Developer*
+
 
 ## 🛠 Skills
 
