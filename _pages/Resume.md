@@ -38,7 +38,10 @@ I’m a tech enthusiast with a strong foundation in **cybersecurity**, **softwar
 
 - **Cybersecurity** (OWASP Top 10, Ethical Hacking, Cisco Certified)
 - **React Native**, Mobile UI/UX Design
-- **PHP**, **JavaScript**, **MySQL**, **Azure**, **Cloud Security**
+- **PHP**, **JavaScript**,
+- **MySQL**,
+- **Azure**,
+- **Cloud Security**
 - **Technical Support**, **Documentation**, **Git**
 
 ---
