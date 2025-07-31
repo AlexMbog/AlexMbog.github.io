@@ -7,7 +7,7 @@ author_profile: true
 
 # 📄 Resume
 
-I’m a detail-oriented Computer Science graduate with a strong foundation in **cybersecurity**, **software engineering**, and **mobile development**. My experience spans from securing digital infrastructures to building user-friendly applications using React Native and cloud platforms like Azure.
+I’m a tech enthusiast with a strong foundation in **cybersecurity**, **software engineering**, and **mobile development**. My experience spans from securing digital infrastructures to building user-friendly applications using React Native and cloud platforms like Azure.
 
 ---
 
