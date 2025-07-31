@@ -48,4 +48,13 @@ Architecture for deploying scalable, secure apps on Azure.
  
 
 ---
+## Data Governance
+Exploring Microsoft Purview and Data Governance:
+[📄 View PDF](/assets/ProjectFile/DataGovernance.pdf)
 
+---
+## Microsoft ADC Cybersecurity Skilling: Azure SQL Database Security Implementation (Lab 05)
+The implementation of built-in security features in Microsoft Azure's SQL Database service to protect data from unauthorized access, threats like SQL injection, and ensure compliance with data governance regulations. It includes features such as data encryption, classification, advanced threat protection, and auditing to monitor and secure sensitive information.
+[📄 View PDF](/assets/ProjectFile/SqlSecurity.pdf)
+
+---
