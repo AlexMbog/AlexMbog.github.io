@@ -18,7 +18,6 @@ Join me as i Create a safe, isolated environment (Kali attacker + Windows target
 
 [My Home lab](HomeLab.md)
 
-[📄 View PDF](/assets/ProjectFile/LAB_KeyVault.odt)
 ---
 
 ## 🔐 Cloud Governance  
