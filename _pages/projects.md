@@ -23,8 +23,7 @@ My azure security practical lab demonstrations and detailed reports
 
 ---
 
-## 📱 A Bootsrap, Js , Html , CSS based Portfolio Add commentMore actions
-
+## 📱 A Bootsrap, Js , Html , CSS based Portfolio 
 Showcase of Bootsrap design for a Personal portfolio.  
 
 [📄 View PDF](https://github.com/AlexMbog/Porfolio)
@@ -34,5 +33,10 @@ Showcase of Bootsrap design for a Personal portfolio.
 ## 📱 Mobile UI
 
 - [📄 React Native UI Showcase](/assets/ProjectFile/reactnative_ui_showcase.pdf)
+
+---
+## 📱 Graphics design
+
+- [📄 React Native UI Showcase](/assets/ProjectFile/HotelMenu.pdf)
 
 
