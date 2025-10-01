@@ -37,6 +37,6 @@ Showcase of Bootsrap design for a Personal portfolio.
 ---
 ## 📱 Graphics design
 
-- [📄 React Native UI Showcase](/assets/ProjectFile/HotelMenu.pdf)
+- [📄 React Native UI Showcase](/assets/ProjectFile/Graphics/MenuCardDesign.pdf)
 
 
