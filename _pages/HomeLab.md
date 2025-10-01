@@ -1,4 +1,3 @@
-# 🔐 My Cybersecurity Home Lab
 
 This page documents the design and build of my personal cybersecurity home lab.  
 The lab is an **isolated, controlled environment** where I safely practice core skills such as reconnaissance, enumeration, exploitation, and defensive monitoring without impacting production systems.
