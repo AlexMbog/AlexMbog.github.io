@@ -16,7 +16,7 @@ Here are a few highlights from my work in cloud security:
 ## 🔐 My Cybersecurity Home Lab Build
 Join me as i Create a safe, isolated environment (Kali attacker + Windows target) to practice reconnaissance, enumeration, exploitation (lab-only), and defensive detection.
 
-[My Home lab](My-Home-Lab.md)
+[My Home lab](HomeLab.md)
 
 [📄 View PDF](/assets/ProjectFile/LAB_KeyVault.odt)
 ---
