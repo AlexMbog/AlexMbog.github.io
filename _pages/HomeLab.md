@@ -50,5 +50,4 @@ By simulating both offensive and defensive roles, I explore how attackers identi
 ## Nmap Reconnaissance Report
 [📄 View PDF](/assets/Home_Lab/nmap.pdf)
 
-## Nmap Reconnaissance Report
 
