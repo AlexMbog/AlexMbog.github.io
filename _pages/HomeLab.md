@@ -47,3 +47,8 @@ By simulating both offensive and defensive roles, I explore how attackers identi
 ## Priviledge Escalation(WinPeas)
 [📄 View PDF](/assets/Home_Lab/PriviledgeEscalation.pdf)
 ---
+## Nmap Reconnaissance Report
+[📄 View PDF](/assets/Home_Lab/nmap.pdf)
+
+## Nmap Reconnaissance Report
+
