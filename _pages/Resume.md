@@ -2,7 +2,7 @@ title: "Resume"
 layout: single
 permalink: /resume/
 author_profile: true
-📄 Resume – Alex Evans Mbogo
+Resume – Alex  Mbogo
 
 I’m a passionate Full Stack Developer and Cybersecurity Analyst with a strong commitment to building secure, scalable, and user-centered digital solutions. My expertise spans software development, mobile app engineering, cloud security, and ethical hacking.
 I’m a lifelong learner who enjoys exploring new technologies, solving complex problems, and helping organizations strengthen their digital resilience.
