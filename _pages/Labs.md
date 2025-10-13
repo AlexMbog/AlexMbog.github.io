@@ -7,7 +7,8 @@ author_profile: true
 
 # 🚀 Labs & Case Studies
 
-Here are a few highlights from my work in Cloud security | CyberSecurity | MobileDevelopment | GraphicsDesign | JavascriptGames | Websites | WebApps Projects
+Here are a few highlights from my work in
+Cloud security | CyberSecurity | MobileDevelopment | GraphicsDesign | JavascriptGames | Websites | WebApps Projects
 
 
 ---
@@ -20,9 +21,7 @@ Join me as i Create a safe, isolated environment (Kali attacker + Windows target
 ---
 
 ## 🔐 Cloud Security 
-To create a proof of concept application that makes use of the Azure SQL Database support for Always Encrypted functionality. All of the secrets and keys used in this scenario should be stored in Key Vault. The application should be registered in Microsoft Entra ID in order to enhance its security posture. To accomplish these objectives, the proof of concept  includes:
-    • Creating an Azure Key Vault and storing keys and secrets in the vault. 
-    • Create a SQL Database and encrypting content of columns in database tables by using Always Encrypted.   
+
 [📄Cloud Security](CloudSecurity.md)
 
 
