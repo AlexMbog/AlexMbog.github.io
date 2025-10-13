@@ -7,8 +7,7 @@ author_profile: true
 
 # 🚀 Labs & Case Studies
 
-Here are a few highlights from my work in cloud security/CyberSecurity/MobileDevelopment:
-
+Here are a few highlights from my work in Cloud security | CyberSecurity | MobileDevelopment | GraphicsDesign | JavascriptGames | Websites | WebApps Projects
 
 
 ---
