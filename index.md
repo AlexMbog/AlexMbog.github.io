@@ -40,39 +40,6 @@ Hi, I'm **Alex Mbogo**, a passionate *Tech Savy* with a deep interest in **Cyber
 
 ---
 
-## 🧳 Experience
 
-### Web Developer — *Nick Photography* (Remote)  
-**Feb 2025 – Mar 2025**  
-- Built and deployed a complete portfolio on GitHub for a photography business
-
-### IT Intern — *Ministry of Agriculture & Livestock*  
-**May 2024 – Aug 2024**  
-- Provided tech support and troubleshooting
-- Helped manage IT infrastructure and security protocols
-- Led user training sessions on digital safety and device handling
-
----
-
-## 🎓 Education
-
-**Bachelor of Science in Computer Science**  
-*St. Paul's University, Kenya* — *Expected Nov 2024*
-
-**Diploma in Computer Science**  
-*St. Paul's University, Kenya* — *2021*
-
-**Certifications**  
-- Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)  
-- Cisco Certified Ethical Hacker  
-- LinkedIn Cybersecurity Threat Landscape
-
----
-
-## 🚀 Projects
-
-Check out some of my featured work in the repositories below. I’m always excited to collaborate on innovative, secure, and impactful digital solutions.
-
----
 
 Thanks for visiting my portfolio! 🚀 Let's build something secure and great together.
