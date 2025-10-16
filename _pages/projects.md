@@ -15,6 +15,13 @@ author_profile: true
 - [📄 SQL Injection Demo](/assets/ProjectFile/Sql/SqlInjectionDemo.pdf)
 
 ---
+# Data Science
+
+## Data Anaysis
+
+- [📄Data Analysis](https://github.com/AlexMbog/DataScienceProjects)
+
+---
 
 ## ☁️ Cloud Security
 My azure security practical lab demonstrations and detailed reports 
