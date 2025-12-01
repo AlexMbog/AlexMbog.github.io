@@ -84,10 +84,3 @@ A modern graphic design project featuring a stylish and visually appealing hotel
 
 ---
 
-If you want, I can also:
-
-✅ Add images with nice layouts  
-✅ Add animation effects (with HTML/CSS)  
-✅ Add GitHub buttons or badges  
-✅ Improve spacing, colors, or structure  
-Just tell me!
