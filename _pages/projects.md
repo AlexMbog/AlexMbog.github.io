@@ -68,7 +68,7 @@ It features:
 - Designed for both Android & iOS
 
 **Preview Images:**  
-- [MamaMboga](/assets/Mobile_Ui/MamaMboga.jpg)
+- [MamaMboga](/assets/Mobile_Ui/MamaMbog.jpg)
 
 **Other UI Demos:**  
 - [📄 React Native UI Showcase](/assets/ProjectFile/reactnative_ui_showcase.pdf)
