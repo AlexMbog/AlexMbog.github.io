@@ -3,124 +3,144 @@ title: "Resume"
 layout: single
 permalink: /resume/
 author_profile: true
+---
+
+# 👨‍💻 Alex Mbogo
+
+Full Stack Developer & Cybersecurity Analyst passionate about building **secure, scalable, and user-focused applications**.  
+
+I combine software development, cloud security, and ethical hacking to design resilient digital systems and identify real-world vulnerabilities.
 
 ---
-Alex  Mbogo
 
-I’m a passionate Full Stack Developer and Cybersecurity Analyst with a strong commitment to building secure, scalable, and user-centered digital solutions. My expertise spans software development, mobile app engineering, cloud security, and ethical hacking.
-I’m a lifelong learner who enjoys exploring new technologies, solving complex problems, and helping organizations strengthen their digital resilience.
+## 🎓 Education
 
-🎓 Education
+**BSc Computer Science**  
+St. Paul’s University – Nov 2024  
 
-Bachelor of Science in Computer Science, St. Paul's University – Awarded Nov 2024
+**Diploma in Computer Science**  
+St. Paul’s University – 2021  
 
-Diploma in Computer Science, St. Paul's University – 2021
+---
 
-💼 Professional Experience
-IT Intern – Ministry of Agriculture and Livestock Development
+## 💼 Experience
 
-Nairobi, Kenya | May 2024 – Aug 2024
+### IT Intern  
+**Ministry of Agriculture and Livestock Development** — Nairobi  
+*May 2024 – Aug 2024*
 
-Provided day-to-day IT support, ensuring smooth operation of hardware, software, and network systems.
+- Provided IT support across hardware, software, and networks  
+- Assisted in implementing cybersecurity best practices  
+- Supported system upgrades and minimized downtime  
+- Conducted user awareness training on cyber hygiene  
+- Documented technical processes and improved workflows  
 
-Assisted in implementing security policies and managing data protection protocols.
+---
 
-Supported the deployment of updates and system upgrades, maintaining minimal downtime.
+### Web Developer (Remote)  
+**NicK Photography** — Kiambu  
+*Feb 2025 – Mar 2025*
 
-Conducted staff training sessions on cybersecurity awareness and digital best practices.
+- Built and deployed a responsive portfolio website  
+- Optimized performance and mobile usability  
+- Implemented secure form handling and validation  
 
-Documented technical procedures and contributed to improving ICT operational workflows.
+---
 
-Web Developer (Remote) – NicK Photography
+### Mobile App Developer (Freelance)  
+*2023 – Present*
 
-Kiambu, Kenya | Feb 2025 – Mar 2025
+- Developed cross-platform apps using React Native & Firebase  
+- Implemented secure authentication and real-time features  
+- Designed clean, user-friendly interfaces  
 
-Designed and launched a professional portfolio website using HTML, CSS, and JavaScript, hosted on GitHub Pages.
+---
 
-Focused on performance optimization and responsive design for mobile users.
+## 🚀 Key Projects
 
-Implemented secure form handling and code validation practices.
+### 🔐 Cybersecurity
 
-Mobile App Developer (Remote) – Freelance Projects
+- **Penetration Testing Lab** – Simulated attacks using Kali Linux, Metasploit, Nmap, and Burp Suite  
+- **Incident Response Simulation** – Designed and tested response workflows  
+- **Phishing Awareness Program** – Built training materials for security awareness  
+- **Web Security Challenges** – Completed labs on :contentReference[oaicite:0]{index=0} (command injection, auth bypass, etc.)
 
-Remote | Ongoing
+---
 
-Developed and deployed cross-platform mobile apps using React Native and Firebase.
+### ☁️ Cloud & Infrastructure
 
-Built applications with secure user authentication, real-time updates, and cloud integration.
+- **Secure Azure Deployment** – Implemented RBAC and compliance policies  
+- **AWS Monitoring Setup** – Configured CloudWatch alerts and IAM controls  
+- **Backup & Disaster Recovery** – Designed cloud redundancy strategies  
 
-Applied strong UI/UX principles to ensure seamless user experiences.
+---
 
-🚀 Key Projects
-Cybersecurity Projects
+### 📱 Development
 
-Penetration Testing Lab – Performed ethical hacking simulations using Kali Linux, Metasploit, Nmap, and Burp Suite to identify and fix OWASP Top 10 vulnerabilities.
+- **E-Commerce App (React Native)** – Payments, authentication, product system  
+- **Community Service App** – Volunteer coordination platform  
+- **Portfolio Website** – Showcases projects and security labs  
 
-Incident Response Simulation – Designed and tested an incident response playbook for simulated cyberattacks, improving detection and recovery speed.
+---
 
-Phishing Awareness Program – Created educational content and training modules to boost digital literacy and cyber hygiene.
+## 🧠 Technical Skills
 
-Cloud & Infrastructure Projects
+**Cybersecurity:**  
+Penetration Testing, OWASP Top 10, Vulnerability Assessment, Incident Response, Kali Linux, Metasploit, Nmap, Wireshark, Burp Suite  
 
-Secure Azure Deployment – Configured Microsoft Azure environments with RBAC (Role-Based Access Control) and compliance policies for access management.
+**Cloud:**  
+Microsoft Azure, AWS, IAM/RBAC, CloudWatch, Virtual Machines  
 
-AWS Monitoring & Access Control – Set up CloudWatch monitoring, IAM policies, and automated alerts for secure cloud operations.
+**Development:**  
+JavaScript, Python, PHP, React, Node.js, Django, React Native  
 
-Cloud Backup & Disaster Recovery – Designed a cloud-based data redundancy plan to ensure business continuity.
+**Data & Tools:**  
+MySQL, Power BI, GitHub, VS Code  
 
-Mobile & Web Development Projects
+**Operating Systems:**  
+Windows, Linux (Kali, Ubuntu)  
 
-E-Commerce App (React Native) – Developed a mobile e-commerce app with integrated payments, secure login, and product management features.
+---
 
-Community Service App – Built an app for community initiatives, allowing volunteers to connect, register, and receive real-time updates.
+## 📜 Certifications
 
-Portfolio Web App – Created a dynamic web portfolio showcasing development and security projects.
+- Microsoft SC-900 (Security, Compliance & Identity)  
+- Cisco Certified Ethical Hacker  
+- CyberShujaa Cloud Security Certification (2025)  
+- LinkedIn Learning: Cybersecurity Threat Landscape  
+- Azure Fundamentals *(in progress)*  
 
-🧠 Technical Skills
+---
 
-Cybersecurity: Ethical Hacking, Penetration Testing, Network Security, Vulnerability Assessment, Incident Response, OWASP Top 10, Risk Assessment, Threat Detection, Phishing Simulations, Kali Linux, Metasploit, Nmap, Wireshark, Burp Suite
-Cloud & Infrastructure: Microsoft Azure, AWS Cloud, Cloud Security, Role-Based Access Control (RBAC), CloudWatch, Power BI, Virtual Machines, Active Directory, DNS
-Programming & Development: JavaScript, Python, PHP, HTML/CSS, React, Node.js, Django, React Native, MySQL
-Software & Tools: GitHub, PowerApps, Power Automate, Google Workspace, Microsoft Office Suite, VS Code, Canva
-Data Analytics: Power BI Dashboards, SQL Queries, Excel (Data Cleaning & Visualization)
-Operating Systems: Windows, Linux (Ubuntu, Kali)
+## 🏆 Highlights
 
-📜 Certifications
+- Built and documented a cybersecurity lab environment  
+- Developed multiple secure mobile applications  
+- Conducted cybersecurity awareness training  
+- Created a portfolio showcasing real-world security challenges  
 
-Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)
+---
 
-Cisco Certified Ethical Hacker
+## 🌱 Professional Traits
 
-CyberShujaa – Cloud Security Certification (2025) 🆕
+- Analytical problem solver  
+- Strong attention to detail  
+- Continuous learner in cybersecurity & cloud  
+- Collaborative and adaptable  
 
-LinkedIn Learning: Cybersecurity Threat Landscape
+---
 
-Microsoft Azure Fundamentals (in progress)
+## 🔗 Links
 
-🏆 Achievements & Highlights
+- 🌐 Portfolio: alexmbog.github.io  
+- 💻 GitHub: github.com/AlexMbog  
+- 💼 LinkedIn: linkedin.com/in/alexmbogo  
 
-Successfully conducted multiple cybersecurity awareness campaigns for peers and colleagues.
+📧 Email: evansnjiru5@gmail.com  
+📱 Phone: +254 580 56712  
 
-Developed three secure mobile applications independently using React Native.
+---
 
-Recognized for technical excellence during IT internship at the Ministry of Agriculture and Livestock Development.
+## 📌 Availability
 
-Created a GitHub security-focused portfolio showcasing penetration testing and cloud configuration projects.
-
-Continually learning new technologies — recently exploring AI in Cybersecurity and DevSecOps.
-
-🌱 Professional Attributes
-
-Lifelong learner passionate about staying current with new technologies.
-
-Detail-oriented problem solver with strong analytical and debugging skills.
-
-Collaborative team player with excellent communication and adaptability.
-
-Highly organized with a proactive and solution-driven approach.
-
-Committed to continuous growth in cybersecurity, cloud, and software engineering.
-
-🔗 Profiles
-
-💼 LinkedIn
+Open to internships, junior roles, and cybersecurity opportunities.
