@@ -17,7 +17,7 @@ I'm always open to new opportunities, collaborations, and tech conversations. Wh
 ---
 
 ## 💼 LinkedIn  
-**[linkedin.com/in/alexevans](https://www.linkedin.com/in/alexevans)**
+**[linkedin.com/in/alexevans](https://www.linkedin.com/in/alexmbogo)**
 
 ---
 
