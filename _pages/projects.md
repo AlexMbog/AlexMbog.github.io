@@ -1,4 +1,33 @@
----
+<div class="project-grid">
+
+<section>
+  <h2>🔐 Cybersecurity Labs</h2>
+  <h3>SQL Injection Security Lab</h3>
+  <p>Hands-on exploitation and mitigation of SQL Injection vulnerabilities.</p>
+
+  <p>
+    <a href="/assets/ProjectFile/Sql/SqlJournal.pdf">📄 SQL Journal</a><br>
+    <a href="/assets/ProjectFile/Sql/SqlInjectionDemo.pdf">📄 Injection Demo</a>
+  </p>
+</section>
+
+<section>
+  <h2>☁️ Cloud Security</h2>
+  <h3>Azure & AWS Security Lab</h3>
+  <p>Secure deployment with IAM, RBAC, and monitoring.</p>
+
+  <a href="https://alexmbog.github.io/labs/">🌐 View Labs</a>
+</section>
+
+<section>
+  <h2>📱 Mobile Development</h2>
+  <h3>Mama Mboga App</h3>
+  <p>React Native grocery ordering system for local vendors.</p>
+
+  <a href="/assets/Mobile_UI/MamaMbog.jpg">🖼️ Preview</a>
+</section>
+
+</div>---
 title: "Projects"
 layout: single
 permalink: /projects/
