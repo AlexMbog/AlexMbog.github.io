@@ -88,3 +88,8 @@ Clean and modern restaurant menu design focused on UX clarity.
 📄 [View PDF](/assets/Graphics/MenuCardDesign.pdf)
 
 </div>
+## 📊 GitHub Activity
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlexMbog&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlexMbog&layout=compact&theme=tokyonight)
