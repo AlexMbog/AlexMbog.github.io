@@ -5,7 +5,7 @@ permalink: /labs/hackthissite/
 author_profile: true
 ---
 
-# 🔐 HackThisSite Writeups
+#Writeups
 
 This section documents my hands-on solutions and analysis of web security challenges from :contentReference[oaicite:0]{index=0}.
 
