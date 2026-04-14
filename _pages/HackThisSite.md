@@ -5,7 +5,7 @@ permalink: /labs/hackthissite/
 author_profile: true
 ---
 
-#Writeups
+##Introduction
 
 This section documents my hands-on solutions and analysis of web security challenges from :contentReference[oaicite:0]{index=0}.
 
@@ -41,7 +41,7 @@ Sensitive data exposed in frontend code
 
 **Lesson:**  
 Never store secrets in client-side code  
-👉 [View Full Report](../assets/Hack_This_Site/level_1.pdf)
+👉 [View Full Report](../assets/Hack_This_Site/Level_1.pdf)
 
 ---
 
