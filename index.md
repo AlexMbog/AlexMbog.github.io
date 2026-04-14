@@ -16,7 +16,7 @@ author_profile: true
 
 ## 👋 Welcome
 
-I’m a **Computer Science graduate and cybersecurity-focused developer** passionate about building secure, scalable, and user-centered digital systems.
+I’m a **Ict Proffessional and cybersecurity-focused developer** passionate about building secure, scalable, and user-centered digital systems.
 
 I specialize in combining **software development, cloud security, and ethical hacking** to design applications that are not only functional — but resilient against real-world threats.
 
@@ -28,7 +28,8 @@ I specialize in combining **software development, cloud security, and ethical ha
 - Cloud Security (Azure & AWS)  
 - Full Stack Development (React, Node.js, PHP, MySQL)  
 - Ethical Hacking & Vulnerability Analysis  
-- Secure System Design & Implementation  
+- Secure System Design & Implementation
+
 
 ---
 
