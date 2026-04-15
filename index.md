@@ -1,7 +1,7 @@
 ---
-title: "Projects"
+title: "Home"
 layout: single
-permalink: /projects/
+permalink: /home/
 author_profile: true
 ---
 <div class="home">
