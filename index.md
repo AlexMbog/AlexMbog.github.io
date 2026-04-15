@@ -1,6 +1,4 @@
 ---
-
-💡 *“Secure systems are not built by accident — they are engineered.”* the styles are for this   ---
 title: "Projects"
 layout: splash
 permalink: /projects/
