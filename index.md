@@ -94,22 +94,22 @@ author_profile: true
 
   <div class="skills-grid">
 
-    <div>
+  <div>
       <strong>Cybersecurity</strong>
       <p>Penetration Testing, OWASP Top 10, Vulnerability Assessment, Incident Response</p>
     </div>
 
-    <div>
+  <div>
       <strong>Cloud</strong>
       <p>Azure, AWS, IAM, Cloud Monitoring, Virtual Machines</p>
     </div>
 
-    <div>
+   <div>
       <strong>Development</strong>
       <p>JavaScript, Python, PHP, React, Node.js, React Native</p>
     </div>
 
-    <div>
+  <div>
       <strong>Tools</strong>
       <p>Git, GitHub, Kali Linux, Burp Suite, Nmap, Wireshark</p>
     </div>
