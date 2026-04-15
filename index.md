@@ -4,87 +4,148 @@ layout: single
 author_profile: true
 ---
 
-# 👨‍💻 Alex Mbogo
+<div class="home">
 
-**Cybersecurity Analyst | Cloud Security Enthusiast | Full Stack Developer**
+<!-- HERO -->
+<section class="hero">
 
-📍 Nairobi, Kenya  
-📧 evansnjiru5@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/alexevans) | [GitHub](https://github.com/AlexMbog)
+  <h1 class="hero-title">Alex Mbogo</h1>
 
----
+  <p class="hero-subtitle">
+    Cybersecurity Analyst | Cloud Security Enthusiast | Full Stack Developer
+  </p>
 
-## 👋 Welcome
+  <p class="hero-meta">
+    📍 Nairobi, Kenya • 📧 evansnjiru5@gmail.com
+  </p>
 
-I’m a **Ict Proffessional and cybersecurity-focused developer** passionate about building secure, scalable, and user-centered digital systems.
+  <div class="hero-links">
+    <a href="https://www.linkedin.com/in/alexmbogo">LinkedIn</a>
+    <a href="https://github.com/AlexMbog">GitHub</a>
+  </div>
 
-I specialize in combining **software development, cloud security, and ethical hacking** to design applications that are not only functional — but resilient against real-world threats.
+</section>
 
----
+<!-- ABOUT -->
+<section class="card highlight">
 
-## 🔐 What I Focus On
+  <h2>👋 About Me</h2>
 
-- Web & Mobile Application Security  
-- Cloud Security (Azure & AWS)  
-- Full Stack Development (React, Node.js, PHP, MySQL)  
-- Ethical Hacking & Vulnerability Analysis  
-- Secure System Design & Implementation
+  <p>
+    I am an ICT professional and cybersecurity-focused developer passionate about building
+    secure, scalable, and user-centered digital systems.
+  </p>
 
+  <p>
+    I specialize in combining software development, cloud security, and ethical hacking
+    to design applications that are functional, resilient, and production-ready.
+  </p>
 
----
+</section>
 
-## 🚀 Featured Work
+<!-- FOCUS AREAS -->
+<section class="card">
 
-### 🔐 Cybersecurity Labs  
-Hands-on security analysis, including vulnerability discovery and exploitation in controlled environments.
+  <h2>🔐 What I Focus On</h2>
 
-👉 Includes work from :contentReference[oaicite:0]{index=0}
+  <ul class="clean-list">
+    <li>Web & Mobile Application Security</li>
+    <li>Cloud Security (Azure & AWS)</li>
+    <li>Full Stack Development (React, Node.js, PHP, MySQL)</li>
+    <li>Ethical Hacking & Vulnerability Analysis</li>
+    <li>Secure System Design & Implementation</li>
+  </ul>
 
----
+</section>
 
-### ☁️ Cloud Security Projects  
-Secure cloud configurations, IAM policies, monitoring, and compliance setups on Azure and AWS.
+<!-- FEATURED WORK -->
+<section class="card">
 
----
+  <h2>🚀 Featured Work</h2>
 
-### 📱 Development Projects  
-Mobile and web applications built with React Native, Firebase, and modern web technologies.
+  <div class="mini-block">
+    <h3>🔐 Cybersecurity Labs</h3>
+    <p>
+      Hands-on security analysis including vulnerability discovery,
+      exploitation, and mitigation in controlled environments.
+    </p>
+  </div>
 
----
+  <div class="mini-block">
+    <h3>☁️ Cloud Security Projects</h3>
+    <p>
+      Secure cloud configurations using IAM, RBAC, monitoring, and compliance setups on Azure and AWS.
+    </p>
+  </div>
 
-## 🧠 Core Skills
+  <div class="mini-block">
+    <h3>📱 Development Projects</h3>
+    <p>
+      Mobile and web applications built with React Native, Firebase, and modern web technologies.
+    </p>
+  </div>
 
-**Cybersecurity:**  
-Penetration Testing, OWASP Top 10, Vulnerability Assessment, Incident Response  
+</section>
 
-**Cloud:**  
-Azure, AWS, IAM, Cloud Monitoring, Virtual Machines  
+<!-- SKILLS -->
+<section class="card">
 
-**Development:**  
-JavaScript, Python, PHP, React, Node.js, React Native  
+  <h2>🧠 Core Skills</h2>
 
-**Tools:**  
-Git, GitHub, Kali Linux, Burp Suite, Nmap, Wireshark  
+  <div class="skills-grid">
 
----
+    <div>
+      <strong>Cybersecurity</strong>
+      <p>Penetration Testing, OWASP Top 10, Vulnerability Assessment, Incident Response</p>
+    </div>
 
-## 🎓 Certifications
+    <div>
+      <strong>Cloud</strong>
+      <p>Azure, AWS, IAM, Cloud Monitoring, Virtual Machines</p>
+    </div>
 
-- Microsoft SC-900 (Security, Compliance & Identity)  
-- Cisco Certified Ethical Hacker  
-- CyberShujaa Cloud Security Certification (2025)  
-- LinkedIn Learning: Cybersecurity Fundamentals  
+    <div>
+      <strong>Development</strong>
+      <p>JavaScript, Python, PHP, React, Node.js, React Native</p>
+    </div>
 
----
+    <div>
+      <strong>Tools</strong>
+      <p>Git, GitHub, Kali Linux, Burp Suite, Nmap, Wireshark</p>
+    </div>
 
-## 📌 Let’s Connect
+  </div>
 
-I’m open to:
-- Cybersecurity roles  
-- Cloud engineering opportunities  
-- Full stack development work  
-- Internships & collaborations  
+</section>
 
----
+<!-- CERTIFICATIONS -->
+<section class="card">
 
-💡 *“Secure systems are not built by accident — they are engineered.”*
+  <h2>🎓 Certifications</h2>
+
+  <ul class="clean-list">
+    <li>Microsoft SC-900 (Security, Compliance & Identity)</li>
+    <li>Cisco Certified Ethical Hacker</li>
+    <li>CyberShujaa Cloud Security Certification (2025)</li>
+    <li>LinkedIn Learning: Cybersecurity Fundamentals</li>
+  </ul>
+
+</section>
+
+<!-- CTA -->
+<section class="card">
+
+  <h2>📌 Open To Opportunities</h2>
+
+  <p>
+    Cybersecurity roles • Cloud engineering • Full stack development • Internships • Collaborations
+  </p>
+
+</section>
+
+<!-- QUOTE -->
+<section class="quote">
+  <p>“Secure systems are not built by accident — they are engineered.”</p>
+</section>
+
+</div>
