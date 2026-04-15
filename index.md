@@ -1,18 +1,12 @@
----
-title: "Home"
-layout: single
-author_profile: true
----
-
 <div class="home">
 
-<!-- HERO -->
+<!-- HERO (MAJOR UPGRADE) -->
 <section class="hero">
 
   <h1 class="hero-title">Alex Mbogo</h1>
 
   <p class="hero-subtitle">
-    Cybersecurity Analyst | Cloud Security Enthusiast | Full Stack Developer
+    Cybersecurity Analyst • Cloud Security • Full Stack Developer
   </p>
 
   <p class="hero-meta">
@@ -26,126 +20,77 @@ author_profile: true
 
 </section>
 
-<!-- ABOUT -->
-<section class="card highlight">
+<!-- STATUS STRIP (THIS IS WHAT MAKES IT FEEL PREMIUM) -->
+<section class="status-grid">
 
-  <h2>👋 About Me</h2>
+  <div class="status-card">
+    <div class="status-title">Security Focus</div>
+    <div class="status-value">OWASP • Pentesting • Incident Response</div>
+  </div>
+
+  <div class="status-card">
+    <div class="status-title">Cloud Focus</div>
+    <div class="status-value">AWS • Azure • IAM • Monitoring</div>
+  </div>
+
+  <div class="status-card">
+    <div class="status-title">Dev Focus</div>
+    <div class="status-value">React • Node.js • React Native</div>
+  </div>
+
+</section>
+
+<!-- ABOUT (BETTER STRUCTURE) -->
+<section class="card">
+
+  <h2>About</h2>
 
   <p>
-    I am an ICT professional and cybersecurity-focused developer passionate about building
-    secure, scalable, and user-centered digital systems.
-  </p>
-
-  <p>
-    I specialize in combining software development, cloud security, and ethical hacking
-    to design applications that are functional, resilient, and production-ready.
+    I am an ICT professional and cybersecurity-focused developer building secure,
+    scalable and resilient systems across cloud and web environments.
   </p>
 
 </section>
 
-<!-- FOCUS AREAS -->
-<section class="card">
+<!-- WHAT I DO (VISUAL BLOCKS) -->
+<section class="grid-2">
 
-  <h2>🔐 What I Focus On</h2>
-
-  <ul class="clean-list">
-    <li>Web & Mobile Application Security</li>
-    <li>Cloud Security (Azure & AWS)</li>
-    <li>Full Stack Development (React, Node.js, PHP, MySQL)</li>
-    <li>Ethical Hacking & Vulnerability Analysis</li>
-    <li>Secure System Design & Implementation</li>
-  </ul>
-
-</section>
-
-<!-- FEATURED WORK -->
-<section class="card">
-
-  <h2>🚀 Featured Work</h2>
-
-  <div class="mini-block">
-    <h3>🔐 Cybersecurity Labs</h3>
-    <p>
-      Hands-on security analysis including vulnerability discovery,
-      exploitation, and mitigation in controlled environments.
-    </p>
+  <div class="card hover">
+    <h3>🔐 Cybersecurity</h3>
+    <p>Penetration testing, vulnerability analysis, OWASP Top 10</p>
   </div>
 
-  <div class="mini-block">
-    <h3>☁️ Cloud Security Projects</h3>
-    <p>
-      Secure cloud configurations using IAM, RBAC, monitoring, and compliance setups on Azure and AWS.
-    </p>
-  </div>
-
-  <div class="mini-block">
-    <h3>📱 Development Projects</h3>
-    <p>
-      Mobile and web applications built with React Native, Firebase, and modern web technologies.
-    </p>
+  <div class="card hover">
+    <h3>☁️ Cloud Engineering</h3>
+    <p>AWS, Azure, IAM, RBAC, monitoring systems</p>
   </div>
 
 </section>
 
-<!-- SKILLS -->
-<section class="card">
+<section class="grid-2">
 
-  <h2>🧠 Core Skills</h2>
+  <div class="card hover">
+    <h3>💻 Full Stack Dev</h3>
+    <p>React, Node.js, PHP, MySQL, APIs</p>
+  </div>
 
-  <div class="skills-grid">
-
-  <div>
-      <strong>Cybersecurity</strong>
-      <p>Penetration Testing, OWASP Top 10, Vulnerability Assessment, Incident Response</p>
-    </div>
-
-  <div>
-      <strong>Cloud</strong>
-      <p>Azure, AWS, IAM, Cloud Monitoring, Virtual Machines</p>
-    </div>
-
-   <div>
-      <strong>Development</strong>
-      <p>JavaScript, Python, PHP, React, Node.js, React Native</p>
-    </div>
-
-  <div>
-      <strong>Tools</strong>
-      <p>Git, GitHub, Kali Linux, Burp Suite, Nmap, Wireshark</p>
-    </div>
-
+  <div class="card hover">
+    <h3>📱 Mobile Dev</h3>
+    <p>React Native, Expo, Firebase apps</p>
   </div>
 
 </section>
 
-<!-- CERTIFICATIONS -->
-<section class="card">
+<!-- CTA STRIP -->
+<section class="cta">
 
-  <h2>🎓 Certifications</h2>
-
-  <ul class="clean-list">
-    <li>Microsoft SC-900 (Security, Compliance & Identity)</li>
-    <li>Cisco Certified Ethical Hacker</li>
-    <li>CyberShujaa Cloud Security Certification (2025)</li>
-    <li>LinkedIn Learning: Cybersecurity Fundamentals</li>
-  </ul>
-
-</section>
-
-<!-- CTA -->
-<section class="card">
-
-  <h2>📌 Open To Opportunities</h2>
-
-  <p>
-    Cybersecurity roles • Cloud engineering • Full stack development • Internships • Collaborations
-  </p>
+  <p>Open to Cybersecurity • Cloud Engineering • Full Stack Roles</p>
 
 </section>
 
 <!-- QUOTE -->
 <section class="quote">
-  <p>“Secure systems are not built by accident — they are engineered.”</p>
+  “Secure systems are not built by accident — they are engineered.”
 </section>
 
 </div>
