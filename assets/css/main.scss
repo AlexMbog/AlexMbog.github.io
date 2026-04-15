@@ -1,6 +1,10 @@
+/* Only the main Sass file needs front matter */
+---
+
+@import "minimal-mistakes";
 
 /* =========================
-   GLOBAL DARK THEME RESET
+   GLOBAL DARK THEME RESET (SAFE)
 ========================= */
 
 html, body {
@@ -8,7 +12,7 @@ html, body {
   color: #e2e8f0 !important;
 }
 
-/* ===== NAVBAR ===== */
+/* NAVBAR */
 .masthead,
 .greedy-nav,
 .site-nav {
@@ -21,25 +25,31 @@ html, body {
   color: #e2e8f0 !important;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 .page__footer {
   background-color: #0b1220 !important;
   border-top: 1px solid #1e293b !important;
   color: #94a3b8 !important;
 }
 
-/* ===== PAGE CONTENT AREA ===== */
-.page__content,
-.page {
-  background-color: #0b1220 !important;
+/* IMPORTANT: DO NOT BREAK SIDEBAR / AVATAR */
+.sidebar,
+.author__avatar,
+.author__content {
+  background: transparent !important;
 }
 
-/* ===== HEADINGS ===== */
+/* PAGE CONTENT (SAFE ONLY) */
+.page__content {
+  background: transparent !important;
+}
+
+/* HEADINGS */
 h1, h2, h3, h4, h5, h6 {
   color: #e2e8f0 !important;
 }
 
-/* ===== LINKS ===== */
+/* LINKS */
 a {
   color: #60a5fa !important;
 }
@@ -48,7 +58,7 @@ a:hover {
   color: #38bdf8 !important;
 }
 
-/* ===== DEFAULT BOXES RESET ===== */
+/* NOTICES */
 .notice,
 .notice--info,
 .notice--warning {
@@ -58,55 +68,87 @@ a:hover {
 }
 
 /* =========================
-   PREMIUM UI LAYER
+   HOME PAGE DESIGN SYSTEM
 ========================= */
 
-/* STATUS STRIP */
-.home .status-grid {
+/* HERO */
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.hero-subtitle,
+.hero-meta {
+  color: #94a3b8;
+}
+
+/* STATUS GRID */
+.status-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  margin-bottom: 25px;
+  margin: 25px 0;
 }
 
-.home .status-card {
+.status-card {
   background: #0f172a;
   border: 1px solid #1e293b;
   padding: 15px;
   border-radius: 12px;
 }
 
-.home .status-title {
+.status-title {
   font-size: 0.9rem;
   color: #38bdf8;
   margin-bottom: 5px;
 }
 
-.home .status-value {
+.status-value {
   font-size: 0.85rem;
   color: #94a3b8;
 }
 
-/* GRID SYSTEM UPGRADE */
-.home .grid-2 {
+/* GRID SYSTEM */
+.grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
 }
 
-/* CARD HOVER (THIS IS WHAT MAKES IT FEEL PREMIUM) */
-.home .card.hover {
+/* CARD SYSTEM */
+.card {
+  background: #111a2e;
+  border: 1px solid #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* CARD HOVER EFFECT */
+.card.hover {
   transition: 0.2s ease;
 }
 
-.home .card.hover:hover {
+.card.hover:hover {
   transform: translateY(-4px);
   border-color: #38bdf8;
 }
 
-/* CTA UPGRADE */
-.home .cta {
+/* CTA */
+.cta {
   text-align: center;
   margin-top: 30px;
   color: #38bdf8;
+}
+
+/* QUOTE */
+.quote {
+  text-align: center;
+  color: #94a3b8;
+  font-style: italic;
+  margin-top: 30px;
 }
