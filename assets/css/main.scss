@@ -33,3 +33,59 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.home {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+}
+
+.hero-subtitle {
+  color: #94a3b8;
+}
+
+.hero-meta {
+  color: #94a3b8;
+  margin-top: 10px;
+}
+
+.hero-links a {
+  margin: 0 10px;
+}
+
+.card {
+  background: #111a2e;
+  border: 1px solid #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.clean-list {
+  padding-left: 18px;
+  color: #cbd5e1;
+}
+
+.mini-block {
+  margin-bottom: 15px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.quote {
+  text-align: center;
+  color: #94a3b8;
+  font-style: italic;
+}
