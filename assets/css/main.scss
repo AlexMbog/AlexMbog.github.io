@@ -219,3 +219,30 @@ body {
     padding: 40px 10px;
   }
 }
+/* =========================
+   HARD OVERRIDE (MINIMAL MISTAKES FIX)
+========================= */
+
+.page__content {
+  background: #0b1220 !important;
+}
+
+.card,
+.status-card,
+.hero,
+.grid-2,
+.status-grid {
+  all: unset;
+  display: block;
+  color: #e5e7eb !important;
+}
+
+/* rebuild card system clean */
+.card {
+  background: #0f172a !important;
+  border: 1px solid #1e293b !important;
+  padding: 24px !important;
+  border-radius: 16px !important;
+  margin: 20px 0 !important;
+  display: block !important;
+}
