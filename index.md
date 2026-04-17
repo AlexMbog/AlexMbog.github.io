@@ -9,10 +9,10 @@ author_profile: true
 
 <!-- HERO -->
 <section class="hero">
-  <h1 class="hero-title"></h1>
+  <h1 class="hero-title">Alex Mbogo</h1>
 
   <p class="hero-subtitle">
-    Cybersecurity Analyst • Cloud Security Specialist • Full Stack Developer • Mobile Developer •  Tech Support • Database Engineer • Data analyst
+    Cybersecurity Analyst • Cloud Security • Full Stack Developer
   </p>
 
   <p class="hero-meta">
@@ -20,75 +20,99 @@ author_profile: true
   </p>
 
   <div class="hero-links">
-    <a href="https://www.linkedin.com/in/alexmbogo">LinkedIn</a>
-    <a href="https://github.com/AlexMbog">GitHub</a>
+    <a href="https://www.linkedin.com/in/alexmbogo" class="btn">LinkedIn</a>
+    <a href="https://github.com/AlexMbog" class="btn-outline">GitHub</a>
   </div>
 </section>
 
 <!-- STATUS -->
 <section class="status-grid">
+
   <div class="status-card">
-    <div class="status-title">Security Focus</div>
+    <div class="status-title">🔐 Security</div>
     <div class="status-value">OWASP • Pentesting • Incident Response</div>
   </div>
 
   <div class="status-card">
-    <div class="status-title">Cloud Focus</div>
+    <div class="status-title">☁️ Cloud</div>
     <div class="status-value">AWS • Azure • IAM • Monitoring</div>
   </div>
 
   <div class="status-card">
-    <div class="status-title">Dev Focus</div>
-    <div class="status-value">React • Node.js • React Native • Typescript • Javascript • Tailwind</div>
+    <div class="status-title">💻 Development</div>
+    <div class="status-value">React • Node • React Native</div>
   </div>
-    <div class="status-card">
-    <div class="status-title">Data Analyst Focus</div>
-    <div class="status-value">Python • Pandas </div>
+
+  <div class="status-card">
+    <div class="status-title">📊 Data</div>
+    <div class="status-value">Python • Pandas</div>
   </div>
+
 </section>
 
 <!-- ABOUT -->
 <section class="card">
   <h2>About</h2>
   <p>
-    I am an ICT professional and cybersecurity-focused developer building secure,
-    scalable and resilient systems across cloud and web environments.
+    I build secure, scalable and resilient systems across cloud, web and mobile environments.
   </p>
 </section>
 
 <!-- SKILLS -->
 <section class="grid-2">
+
   <div class="card hover">
     <h3>🔐 Cybersecurity</h3>
-    <p>Penetration testing, vulnerability analysis, OWASP Top 10</p>
+    <p>Penetration testing, vulnerability analysis</p>
+
+    <div class="badges">
+      <span>OWASP</span>
+      <span>Burp Suite</span>
+      <span>Metasploit</span>
+    </div>
   </div>
 
   <div class="card hover">
-    <h3>☁️ Cloud Engineering</h3>
-    <p>AWS, Azure, IAM, RBAC, monitoring systems</p>
+    <h3>☁️ Cloud</h3>
+    <p>AWS, Azure, IAM, monitoring</p>
+
+    <div class="badges">
+      <span>AWS</span>
+      <span>Azure</span>
+      <span>RBAC</span>
+    </div>
   </div>
+
 </section>
 
 <section class="grid-2">
+
   <div class="card hover">
-    <h3>💻 Full Stack Dev</h3>
-    <p>React, Node.js, PHP, MySQL, APIs</p>
+    <h3>💻 Full Stack</h3>
+    <p>React, Node.js, APIs</p>
+
+    <div class="badges">
+      <span>React</span>
+      <span>Node</span>
+      <span>MySQL</span>
+    </div>
   </div>
 
   <div class="card hover">
-    <h3>📱 Mobile Dev</h3>
-    <p>React Native, Expo, Firebase apps</p>
+    <h3>📱 Mobile</h3>
+    <p>React Native, Expo</p>
+
+    <div class="badges">
+      <span>Expo</span>
+      <span>Firebase</span>
+    </div>
   </div>
+
 </section>
 
 <!-- CTA -->
 <section class="cta">
-  <p>Open to Cybersecurity • Cloud Engineering • Full Stack Roles</p>
-</section>
-
-<!-- QUOTE -->
-<section class="quote">
-  “Secure systems are not built by accident — they are engineered.”
+  <p>🚀 Open to Cybersecurity & Cloud Roles</p>
 </section>
 
 </div>
