@@ -1,8 +1,8 @@
 ---
 title: "Home"
-layout: splash
+layout: single
 permalink: /
-author_profile: false
+author_profile: true
 ---
 
 <div class="home">
