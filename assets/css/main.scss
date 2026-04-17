@@ -66,87 +66,77 @@ a:hover {
   border-color: #1e293b !important;
   color: #e2e8f0 !important;
 }
-
 /* =========================
-   HOME PAGE DESIGN SYSTEM
+   HOME PAGE DESIGN SYSTEM (FIXED)
 ========================= */
 
 /* HERO */
-.hero {
+.home .hero {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.hero-title {
+.home .hero-title {
   font-size: 2.8rem;
   font-weight: 700;
 }
 
-.hero-subtitle,
-.hero-meta {
+.home .hero-subtitle,
+.home .hero-meta {
   color: #94a3b8;
 }
 
 /* STATUS GRID */
-.status-grid {
+.home .status-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr); /* you added 4 cards */
   gap: 15px;
   margin: 25px 0;
 }
 
-.status-card {
+.home .status-card {
   background: #0f172a;
   border: 1px solid #1e293b;
   padding: 15px;
   border-radius: 12px;
 }
 
-.status-title {
-  font-size: 0.9rem;
-  color: #38bdf8;
-  margin-bottom: 5px;
-}
-
-.status-value {
-  font-size: 0.85rem;
-  color: #94a3b8;
-}
-
 /* GRID SYSTEM */
-.grid-2 {
+.home .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
-/* CARD SYSTEM */
-.card {
+/* CARD SYSTEM (THIS IS THE KEY FIX) */
+.home .card {
   background: #111a2e;
   border: 1px solid #1e293b;
   padding: 20px;
   border-radius: 12px;
+  margin-bottom: 20px;
 }
 
-/* CARD HOVER EFFECT */
-.card.hover {
+/* HOVER */
+.home .card.hover {
   transition: 0.2s ease;
 }
 
-.card.hover:hover {
+.home .card.hover:hover {
   transform: translateY(-4px);
   border-color: #38bdf8;
 }
 
 /* CTA */
-.cta {
+.home .cta {
   text-align: center;
   margin-top: 30px;
   color: #38bdf8;
 }
 
 /* QUOTE */
-.quote {
+.home .quote {
   text-align: center;
   color: #94a3b8;
   font-style: italic;
