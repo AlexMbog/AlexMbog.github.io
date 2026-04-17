@@ -2,7 +2,7 @@
 title: "Home"
 layout: splash
 permalink: /
-author_profile:false
+author_profile: false
 ---
 
 <div class="home">
