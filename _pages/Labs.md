@@ -1,8 +1,8 @@
 ---
 title: "Labs & Case Studies"
-layout: single
+
 permalink: /labs/
-author_profile: true
+
 ---
 
 # 🚀 Labs & Case Studies
