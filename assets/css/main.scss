@@ -109,23 +109,33 @@ a:hover {
   margin-bottom: 20px;
 }
 
-/* CARD SYSTEM (THIS IS THE KEY FIX) */
-.home .card {
-  background: #111a2e;
-  border: 1px solid #1e293b;
+/* CARD SYSTEM (FORCE OVERRIDE) */
+.page__content .home .card {
+  background: #111a2e !important;
+  border: 1px solid #1e293b !important;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 20px;
 }
 
-/* HOVER */
-.home .card.hover {
-  transition: 0.2s ease;
+/* GRID */
+.page__content .home .grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-.home .card.hover:hover {
+/* STATUS */
+.page__content .home .status-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+/* HOVER */
+.page__content .home .card.hover:hover {
   transform: translateY(-4px);
-  border-color: #38bdf8;
+  border-color: #38bdf8 !important;
 }
 
 /* CTA */
