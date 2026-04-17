@@ -9,10 +9,10 @@ author_profile: true
 
 <!-- HERO -->
 <section class="hero">
-  <h1 class="hero-title">Alex Mbogo</h1>
+  <h1 class="hero-title"></h1>
 
   <p class="hero-subtitle">
-    Cybersecurity Analyst • Cloud Security • Full Stack Developer
+    Cybersecurity Analyst • Cloud Security Specialist • Full Stack Developer • Mobile Developer •  Tech Support • Database Engineer • Data analyst
   </p>
 
   <p class="hero-meta">
@@ -39,7 +39,11 @@ author_profile: true
 
   <div class="status-card">
     <div class="status-title">Dev Focus</div>
-    <div class="status-value">React • Node.js • React Native</div>
+    <div class="status-value">React • Node.js • React Native • Typescript • Javascript • Tailwind</div>
+  </div>
+    <div class="status-card">
+    <div class="status-title">Data Analyst Focus</div>
+    <div class="status-value">Python • Pandas </div>
   </div>
 </section>
 
