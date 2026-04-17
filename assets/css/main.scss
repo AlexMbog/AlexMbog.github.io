@@ -1,119 +1,218 @@
 /* =========================
-   PREMIUM PORTFOLIO UI
+   GLOBAL RESET / BASE
 ========================= */
 
-/* TYPOGRAPHY */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #0b1220;
+  color: #e5e7eb;
   line-height: 1.6;
+  margin: 0;
 }
 
-/* HERO */
-.home .hero {
+/* Ensure Jekyll theme doesn't interfere */
+.page__content {
+  background: transparent !important;
+}
+
+/* =========================
+   MAIN WRAPPER (safe container)
+========================= */
+
+.home {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
   text-align: center;
-  margin-bottom: 50px;
+  padding: 60px 20px;
 }
 
-.home .hero-title {
-  font-size: 3rem;
+.hero-title {
+  font-size: 3.2rem;
   font-weight: 800;
+  letter-spacing: -1px;
 }
 
-.home .hero-subtitle {
+.hero-subtitle {
   font-size: 1.2rem;
   color: #94a3b8;
-}
-
-.home .hero-meta {
   margin-top: 10px;
-  color: #64748b;
 }
 
-/* BUTTONS */
+.hero-meta {
+  color: #64748b;
+  margin-top: 10px;
+}
+
+.hero-links {
+  margin-top: 20px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn,
+.btn-outline {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin: 8px 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
 .btn {
   background: #38bdf8;
   color: #0b1220;
-  padding: 10px 18px;
-  border-radius: 8px;
-  margin-right: 10px;
-  text-decoration: none;
-  font-weight: 600;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
 }
 
 .btn-outline {
   border: 1px solid #38bdf8;
-  padding: 10px 18px;
-  border-radius: 8px;
-  text-decoration: none;
+  color: #38bdf8;
 }
 
-/* STATUS */
-.page__content .home .status-grid {
+.btn-outline:hover {
+  background: rgba(56, 189, 248, 0.1);
+}
+
+/* =========================
+   STATUS GRID (IMPORTANT FIX)
+========================= */
+
+.status-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 40px 0;
 }
 
-.page__content .home .status-card {
+.status-card {
   background: #0f172a;
-  padding: 20px;
-  border-radius: 14px;
   border: 1px solid #1e293b;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  padding: 18px;
+  border-radius: 14px;
+  min-height: 100px;
+
+  /* FIX: ensure visibility */
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
-/* CARD SYSTEM */
-.page__content .home .card {
+/* =========================
+   CARD SYSTEM (CORE FIX)
+========================= */
+
+.card {
   background: #0f172a;
+  border: 1px solid #1e293b;
   padding: 24px;
-  border-radius: 14px;
-  border: 1px solid #1e293b;
-  margin-bottom: 25px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  border-radius: 16px;
+  margin: 20px 0;
+
+  /* FIX visibility issues */
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  transition: all 0.25s ease;
 }
 
-/* GRID */
-.page__content .home .grid-2 {
+.card.hover:hover {
+  transform: translateY(-6px);
+  border-color: #38bdf8;
+  box-shadow: 0 15px 35px rgba(56, 189, 248, 0.15);
+}
+
+/* =========================
+   GRID SYSTEM
+========================= */
+
+.grid-2 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
 }
 
-/* BADGES */
+/* =========================
+   BADGES
+========================= */
+
 .badges {
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 .badges span {
   display: inline-block;
-  background: rgba(56,189,248,0.1);
+  background: rgba(56, 189, 248, 0.12);
   color: #38bdf8;
   padding: 5px 10px;
   border-radius: 999px;
-  margin-right: 8px;
   font-size: 0.75rem;
+  margin: 4px;
 }
 
-/* HOVER EFFECT */
-.page__content .home .card.hover {
-  transition: all 0.25s ease;
-}
+/* =========================
+   CTA
+========================= */
 
-.page__content .home .card.hover:hover {
-  transform: translateY(-6px);
-  border-color: #38bdf8;
-  box-shadow: 0 15px 35px rgba(56,189,248,0.2);
-}
-
-/* CTA */
-.home .cta {
+.cta {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
   font-size: 1.2rem;
   color: #38bdf8;
 }
 
-/* SPACING */
-.page__content .home section {
-  margin-bottom: 30px;
+/* =========================
+   SAFETY OVERRIDES (THEME FIXES)
+========================= */
+
+/* Prevent hidden overflow issues */
+.page__content {
+  overflow: visible !important;
+}
+
+/* Fix potential theme background conflicts */
+.layout--splash .page__content,
+.layout--single .page__content {
+  background: transparent !important;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 900px) {
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .status-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .status-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 40px 10px;
+  }
 }
