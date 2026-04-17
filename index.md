@@ -64,7 +64,6 @@ author_profile: true
   <div class="card hover">
     <h3>🔐 Cybersecurity</h3>
     <p>Penetration testing, vulnerability analysis</p>
-
     <div class="badges">
       <span>OWASP</span>
       <span>Burp Suite</span>
@@ -75,8 +74,7 @@ author_profile: true
   <div class="card hover">
     <h3>☁️ Cloud</h3>
     <p>AWS, Azure, IAM, monitoring</p>
-
-    <div class="badges">
+  <div class="badges">
       <span>AWS</span>
       <span>Azure</span>
       <span>RBAC</span>
@@ -90,8 +88,7 @@ author_profile: true
   <div class="card hover">
     <h3>💻 Full Stack</h3>
     <p>React, Node.js, APIs</p>
-
-    <div class="badges">
+  <div class="badges">
       <span>React</span>
       <span>Node</span>
       <span>MySQL</span>
@@ -101,7 +98,6 @@ author_profile: true
   <div class="card hover">
     <h3>📱 Mobile</h3>
     <p>React Native, Expo</p>
-
     <div class="badges">
       <span>Expo</span>
       <span>Firebase</span>
