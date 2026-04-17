@@ -1,73 +1,101 @@
----
-title: "Labs & Case Studies"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Labs | Alex Mbogo</title>
 
-permalink: /labs/
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
 
----
+<body>
 
-# 🚀 Labs & Case Studies
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Alex Mbogo</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/labs.html">Labs</a>
+      <a href="/resume.html">Resume</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
 
-A curated collection of my hands-on work across:
+  <!-- HEADER -->
+  <section class="container">
+    <h1>Labs & Case Studies</h1>
+    <p style="max-width:700px; opacity:0.7;">
+      Real-world cybersecurity labs, cloud configurations, and system exploitation case studies.
+    </p>
+  </section>
 
-**Cloud Security • Cybersecurity • Mobile Development • Graphics Design • JavaScript Games • Websites & Web Apps**
+  <!-- FILTER -->
+  <section class="container">
+    <div class="filter-bar">
+      <button onclick="filterLabs('all')">All</button>
+      <button onclick="filterLabs('web')">Web</button>
+      <button onclick="filterLabs('cloud')">Cloud</button>
+      <button onclick="filterLabs('linux')">Linux</button>
+    </div>
+  </section>
 
-These projects demonstrate practical skills in building, securing, and analyzing systems in real-world and lab environments.
+  <!-- LAB GRID -->
+  <section class="container">
+    <div class="grid" id="labGrid">
+ <!-- HACKTHISITE -->
+     <div class="card lab web">
+      <h3>HackThisSite Labs</h3>
+        <p>Web exploitation challenges and vulnerability analysis.</p>
 
----
+  <div class="badges">
+          <span class="badge medium">Intermediate</span>
+          <span class="badge">Web</span>
+        </div>
+   <a href="/HackThisSite.html" class="btn secondary">Open Lab →</a>
+      </div>
+ <!-- HOME LAB -->
+   <div class="card lab linux">
+        <h3>Home Lab</h3>
+        <p>Recon, scanning, and privilege escalation practice.</p>
+  <div class="badges">
+          <span class="badge hard">Advanced</span>
+          <span class="badge">Linux</span>
+        </div>
+  <a href="/HomeLab.html" class="btn secondary">Open Lab →</a>
+      </div>
 
-## 🔐 Cybersecurity Labs
+      <!-- CLOUD -->
+  <div class="card lab cloud">
+        <h3>Cloud Security</h3>
+        <p>IAM, RBAC, governance and secure cloud configs.</p>
 
-### 🧪 Web Security Challenges (HackThisSite)
+  <div class="badges">
+          <span class="badge easy">Beginner</span>
+          <span class="badge">Cloud</span>
+        </div>
 
-Hands-on analysis and exploitation of common web vulnerabilities using :contentReference[oaicite:0]{index=0}.
+<a href="/CloudSecurity.html" class="btn secondary">Open Lab →</a>
+      </div>
 
-**Key Focus Areas:**
-- Source Code Analysis  
-- Authentication Bypass  
-- Insecure File Handling  
-- Weak Encryption Analysis  
-- Command Injection  
+  </div>
+  </section>
 
-👉 [View Write-ups](HackThisSite.md)
+</body>
 
----
+<!-- FILTER SCRIPT -->
+<script>
+function filterLabs(type) {
+  const labs = document.querySelectorAll(".lab");
 
-### 🏠 Home Lab Environment
+  labs.forEach(lab => {
+    if (type === "all" || lab.classList.contains(type)) {
+      lab.style.display = "block";
+    } else {
+      lab.style.display = "none";
+    }
+  });
+}
+</script>
 
-Built a safe, isolated lab environment for offensive and defensive security testing.
-
-**Lab Setup:**
-- Kali Linux (Attacker Machine)  
-- Windows (Target Machine)  
-
-**Skills Practiced:**
-- Reconnaissance  
-- Enumeration  
-- Exploitation (lab-only)  
-- Basic Detection & Analysis  
-
-👉 [View Lab Setup](HomeLab.md)
-
----
-
-## ☁️ Cloud Security
-
-Exploration of cloud security concepts, configurations, and best practices.
-
-**Key Areas:**
-- Identity & Access Management (IAM)  
-- Secure Configuration  
-- Risk Mitigation  
-
-👉 [View Cloud Security Notes](CloudSecurity.md)
-
----
-
-## 🧠 What This Section Demonstrates
-
-- Practical cybersecurity skills through hands-on labs  
-- Ability to identify and analyze vulnerabilities  
-- Understanding of secure system design  
-- Continuous learning and experimentation mindset  
-
----
+</html>
