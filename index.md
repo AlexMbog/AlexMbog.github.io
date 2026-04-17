@@ -1,8 +1,6 @@
 ---
 title: "Home"
-layout: single
 permalink: /
-author_profile: true
 ---
 
 <section class="hero-module">
