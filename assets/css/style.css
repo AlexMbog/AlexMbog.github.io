@@ -78,6 +78,51 @@ body {
   transform: translateY(-4px);
   border-color: #38bdf8;
 }
+/* =========================
+   PROJECT CARD LINKS & ICONS
+========================= */
+
+.card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.2s;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: rgba(56, 189, 248, 0.05); /* Suble blue tint */
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.card a:hover {
+  background: rgba(56, 189, 248, 0.15);
+  border-color: #38bdf8;
+  color: #fff;
+}
+
+/* Specific styling for cards with two links (like the SQL Lab) */
+.card a + a {
+  margin-left: 8px;
+}
+
+/* Target icons specifically if needed */
+.card a i {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Highlight tags inside cards */
+.card-tags {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #94a3b8; /* Slate color */
+  font-family: 'Courier New', Courier, monospace; /* Monospace for tech feel */
+  letter-spacing: 0.5px;
+}
 
 /* =========================
    HEADINGS
