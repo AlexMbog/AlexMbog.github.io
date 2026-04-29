@@ -44,85 +44,93 @@
   </section>
 
   <!-- ================= PROJECT GRID ================= -->
+ <!-- ================= PROJECT GRID ================= -->
   <section class="container">
     <div class="grid">
 
-      <!-- PROJECT 1: Cybersecurity -->
-    <div class="card">
-        <h3>🔐Soc analyst Projects</h3>
+      <!-- PROJECT 1: SOC Analysis (Home Lab subset) -->
+      <div class="card">
+        <h3>🔐 Soc analyst Projects</h3>
         <p>
-          Vulnerability analysis, exploitation techniques, and writeups from real-world security challenges.
+          Vulnerability analysis and system hardening reports from my dedicated home lab environment.
         </p>
-        <p style="margin-top: 10px; opacity: 0.7;">
-          OWASP • XSS • SQL Injection • Privilege Escalation
-        </p>
-        <a href="/assets/" >Learn more <i class="fa-solid fa-circle-arrow-right"></i></a>
+        <div class="card-tags" style="margin-top: 10px; opacity: 0.7; font-size: 12px;">
+          RECON-NG • NMAP • REPORTING
+        </div>
+        <div class="card-actions" style="margin-top: 15px;">
+          <a href="/assets/Home_Lab/nmap.pdf">Nmap Report <i class="fa-solid fa-file-pdf"></i></a>
+          <a href="/assets/Home_Lab/recon.pdf">Recon Report <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
       </div>
-       <div class="card">
+
+      <!-- PROJECT 2: Home Lab Project -->
+      <div class="card">
         <h3>🏠 Home Lab Environment</h3>
         <p>
-          Isolated attack and defense environment for simulating penetration testing scenarios.
+          Isolated attack/defense environment using VirtualBox, Kali Linux, and Windows 10 VMs.
         </p>
-        <p style="margin-top: 10px; opacity: 0.7;">
-          Kali Linux • Metasploit • Virtualization
-        </p>
-        <a href="/assets/" >Learn more <i class="fa-solid fa-circle-arrow-right"></i></a>
-      </div>
-
-      
-      <!-- PROJECT 2: Cloud Security -->
-      <div class="card">
-        <h3>Hack this site </h3>
-        <p>Secure cloud deployment using IAM, RBAC models, and Sentinel/CloudWatch monitoring.</p>
-        <div class="card-tags">AWS • AZURE • IAM • SENTINEL</div>
-        <div class="card-actions">
-          <a href="https://alexmbog.github.io/labs/">View Labs <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <div class="card-tags" style="margin-top: 10px; opacity: 0.7; font-size: 12px;">
+          VIRTUALBOX • KALI • WINPEAS • PRIV-ESC
+        </div>
+        <div class="card-actions" style="margin-top: 15px;">
+          <a href="/assets/Home_Lab/setupLab.pdf">Setup Guide <i class="fa-solid fa-file-pdf"></i></a>
+          <a href="/assets/Home_Lab/PriviledgeEscalation.pdf">PrivEsc Lab <i class="fa-solid fa-file-pdf"></i></a>
         </div>
       </div>
 
-      <!-- PROJECT 3: Data Science -->
+      <!-- PROJECT 3: Hack This Site -->
       <div class="card">
-        <h3>Sql injection Project</h3>
-        <p>Python-based data analysis and machine learning experiments using Scikit-learn.</p>
-        <div class="card-tags">PYTHON • PANDAS • ML</div>
-        <div class="card-actions">
-          <a href="https://github.com/AlexMbog/DataScienceProjects">GitHub Repo <i class="fa-brands fa-github"></i></a>
+        <h3>🧠 Hack This Site</h3>
+        <p>Complete writeups for web security challenges focusing on authentication and logic flaws.</p>
+        <div class="card-tags" style="margin-top: 10px; opacity: 0.7; font-size: 12px;">
+          OWASP • WEB SEC • WRITEUPS
+        </div>
+        <div class="card-actions" style="margin-top: 15px;">
+          <a href="/labs/hackthissite/">Full Writeups <i class="fa-solid fa-circle-arrow-right"></i></a>
         </div>
       </div>
 
-      <!-- PROJECT 4: Mobile Dev -->
+      <!-- PROJECT 4: Sql Injection Project -->
+      <div class="card">
+        <h3>💉 Sql Injection Project</h3>
+        <p>Hands-on exploitation and mitigation strategies for SQLi based on OWASP Top 10.</p>
+        <div class="card-tags" style="margin-top: 10px; opacity: 0.7; font-size: 12px;">
+          SQLI • INPUT VALIDATION • SECURE CODING
+        </div>
+        <div class="card-actions" style="margin-top: 15px;">
+          <a href="/assets/ProjectFile/Sql/SqlJournal.pdf">Journal <i class="fa-solid fa-file-pdf"></i></a>
+          <a href="/assets/ProjectFile/Sql/SqlInjectionDemo.pdf">Demo <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+      <!-- PROJECT 5: Mobile Security (Keep for diversity or change to IBM) -->
       <div class="card">
         <h3>📱 Mobile Security Concepts</h3>
-        <p>React Native grocery ordering system featuring a mobile-first UX design for local vendors.</p>
-        <div class="card-tags">REACT NATIVE • EXPO • UI/UX</div>
-        <div class="card-actions">
-          <a href="/assets/Mobile_UI/MamaMbog.jpg">Preview <i class="fa-solid fa-image"></i></a>
+        <p>Exploration of mobile-specific vulnerabilities and secure API authentication flows.</p>
+        <div class="card-tags" style="margin-top: 10px; opacity: 0.7; font-size: 12px;">
+          REACT NATIVE • API SECURITY • AUTH
+        </div>
+        <div class="card-actions" style="margin-top: 15px;">
+          <a href="/assets/Mobile_UI/MamaMbog.jpg">UI Preview <i class="fa-solid fa-image"></i></a>
         </div>
       </div>
 
-      <!-- PROJECT 5: Web Dev -->
+      <!-- PROJECT 6: IBM Ethical Hacking (Place holder for your 5th filter) -->
       <div class="card">
-        <h3>💻 Full Stack Portfolio</h3>
-        <p>Responsive website development and backend integration for personal branding.</p>
-        <div class="card-tags">HTML5 • CSS3 • JAVASCRIPT</div>
-        <div class="card-actions">
-          <a href="https://github.com/AlexMbog/Porfolio">View Repo <i class="fa-brands fa-github"></i></a>
-        </div>
-      </div>
+        <h3>🛡️ IBM Ethical Hacking</h3>
+        <p>Security fundamentals and penetration testing methodology certified by IBM.</p>
+        <div class="card-tags" style="margin-top: 10px; opacity: 0.7; font-size: 12px;">
+          PENTESTING • IBM • CYBER OPS
+        </
 
-      <!-- PROJECT 6: UI/UX -->
-      <div class="card">
-        <h3>🎨 Hotel Menu Design</h3>
-        <p>Clean and modern restaurant menu design created for a professional hospitality brand.</p>
-        <div class="card-tags">DESIGN • BRANDING • PDF</div>
-        <div class="card-actions">
-          <a href="/assets/Graphics/MenuCardDesign.pdf">View PDF <i class="fa-solid fa-file-pdf"></i></a>
+div>
+        <div class="card-actions" style="margin-top: 15px;">
+          <a href="#">Coming Soon <i class="fa-solid fa-lock"></i></a>
         </div>
       </div>
 
     </div>
   </section>
-
   <!-- ================= FOOTER ================= -->
   <section class="container" style="margin-top: 60px; text-align: center; border-top: 1px solid #1f2937;">
     <p style="margin-top: 20px; font-size: 14px; opacity: 0.5;">&copy; 2026 Alex Mbogo. All rights reserved.</p>
