@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOC Analysis Labs | Alex Mbogo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cloudflare.com" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Alex Mbogo</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/resume.html">Resume</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <div style="margin-top: 40px; margin-bottom: 30px;">
+      <div class="intro">SOC Specialist Pathway</div>
+      <h1>Security Analysis & Investigations</h1>
+      <p class="subtitle">
+        Documented write-ups and technical reports covering the full attack lifecycle, from reconnaissance to digital forensics.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= CATEGORY 1: NETWORK & INTRUSION ================= -->
+  <section class="container">
+    <h2 style="margin-bottom: 20px; border-left: 4px solid #38bdf8; padding-left: 15px;">🌐 Network Security & Intrusion</h2>
+    <div class="grid">
+      
+      <!-- MAC Flooding & ARP -->
+      <div class="card">
+        <h3>MAC Flooding & ARP Spoofing</h3>
+        <p>Analysis of Layer 2 attacks and traffic interception techniques within a switched environment.</p>
+        <div class="card-tags">WIRESHARK • ARP • ETHERCAP</div>
+        <div class="card-actions">
+          <a href="/assets/Home_Lab/MAC_ARP_Report.pdf">View Writeup <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+      <!-- WAP Wireless -->
+      <div class="card">
+        <h3>Wireless (WAP) Security</h3>
+        <p>Investigation into wireless protocols, packet sniffing, and unauthorized access point detection.</p>
+        <div class="card-tags">AIRCRACK-NG • 802.11 • MONITOR MODE</div>
+        <div class="card-actions">
+          <a href="/assets/Home_Lab/Wireless_Report.pdf">View Writeup <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= CATEGORY 2: ENDPOINT & FORENSICS ================= -->
+  <section class="container">
+    <h2 style="margin-bottom: 20px; border-left: 4px solid #10b981; padding-left: 15px;">🔍 Digital Forensics & Logs</h2>
+    <div class="grid">
+
+      <!-- Windows Forensics -->
+      <div class="card">
+        <h3>Windows Digital Forensics</h3>
+        <p>Deep dive into the Windows Registry, Prefetch files, and MFT to reconstruct attacker activity.</p>
+        <div class="card-tags">FTK IMAGER • AUTOPSY • ARTIFACTS</div>
+        <div class="card-actions">
+          <a href="/assets/Home_Lab/Windows_Forensics.pdf">View Writeup <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+      <!-- Log Analysis -->
+      <div class="card">
+        <h3>Log Correlation & Triage</h3>
+        <p>Correlating Sysmon and Security Event logs to identify malicious process execution.</p>
+        <div class="card-tags">SYSMON • EVENT VIEWER • SIEM</div>
+        <div class="card-actions">
+          <a href="/assets/Home_Lab/log.pdf">View Writeup <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= CATEGORY 3: WEB & RECON ================= -->
+  <section class="container">
+    <h2 style="margin-bottom: 20px; border-left: 4px solid #fbbf24; padding-left: 15px;">🛡️ Web Security & Recon</h2>
+    <div class="grid">
+
+      <!-- FFUF Web Hacking -->
+      <div class="card">
+        <h3>Web Fuzzing (FFUF)</h3>
+        <p>Directory discovery and parameter fuzzing to identify hidden endpoints and vulnerabilities.</p>
+        <div class="card-tags">FFUF • RECON • BURP SUITE</div>
+        <div class="card-actions">
+          <a href="/assets/Home_Lab/FFUF_Report.pdf">View Writeup <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+      <!-- SQL Injection -->
+      <div class="card">
+        <h3>SQL Injection (OWASP)</h3>
+        <p>Detailed exploit and mitigation strategy for database-driven web application flaws.</p>
+        <div class="card-tags">SQLI • OWASP • SECURE CODING</div>
+        <div class="card-actions">
+          <a href="/assets/Home_Lab/sqlinjec.pdf">View Writeup <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="container" style="text-align: center; border-top: 1px solid #1f2937; margin-top: 50px;">
+    <p style="opacity: 0.5;">&copy; 2026 Alex Mbogo | SOC Portfolio</p>
+  </footer>
+
+</body>
+</html>
 
