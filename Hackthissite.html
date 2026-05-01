@@ -1,1 +1,153 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HackThisSite Writeups | Alex Mbogo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cloudflare.com" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="logo">Alex Mbogo</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/labs.html">Labs</a>
+      <a href="/resume.html">Resume</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ================= PAGE HEADER ================= -->
+  <section class="container">
+    <div style="margin-top: 40px; margin-bottom: 30px;">
+      <div class="intro">Web Security Labs</div>
+      <h1>HackThisSite Writeups</h1>
+      <p class="subtitle">
+        Hands-on solutions and vulnerability analysis of web security challenges. Focus on identifying flaws and applying practical exploitation techniques.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS SECTION ================= -->
+  <section class="container" style="padding-top: 0;">
+    <div class="highlights">
+      <span>Web Testing</span>
+      <span>Code Analysis</span>
+      <span>Auth Bypass</span>
+      <span>File Handling</span>
+      <span>Command Injection</span>
+      <span>Cryptography</span>
+    </div>
+  </section>
+
+  <!-- ================= WRITEUPS GRID ================= -->
+  <section class="container">
+    <div class="grid">
+
+      <!-- Level 1 -->
+      <div class="card">
+        <h3>🔹 Level 1</h3>
+        <p><strong>Vulnerability:</strong> Client-Side Information Exposure</p>
+        <p style="margin-top: 10px;">Inspected source code to identify hidden passwords in HTML comments.</p>
+        <div class="card-tags">FRONTEND EXPOSURE</div>
+        <div class="card-actions">
+          <a href="/assets/Hack_This_Site/Level_1.pdf">Full Report <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+      <!-- Level 2 -->
+      <div class="card">
+        <h3>🔹 Level 2</h3>
+        <p><strong>Vulnerability:</strong> Broken Authentication Logic</p>
+        <p style="margin-top: 10px;">Exploited logic flaws resulting from absent backend resources/missing dependencies.</p>
+        <div class="card-tags">LOGIC FLAW</div>
+        <div class="card-actions">
+          <a href="/assets/Hack_This_Site/level_2.pdf">Full Report <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+      <!-- Level 3 -->
+      <div class="card">
+        <h3>🔹 Level 3</h3>
+        <p><strong>Vulnerability:</strong> Direct Access to Sensitive Files</p>
+        <p style="margin-top: 10px;">Accessed backend .php files directly via URL manipulation due to lack of access control.</p>
+        <div class="card-tags">INSECURE DIRECT ACCESS</div>
+        <div class="card-actions">
+          <a href="/assets/Hack_This_Site/level_3.pdf">Full Report <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+      <!-- Level 4 -->
+      <div class="card">
+        <h3>🔹 Level 4</h3>
+        <p><strong>Vulnerability:</strong> Hardcoded Credentials</p>
+        <p style="margin-top: 10px;">Extracted plaintext passwords embedded directly within client-side scripts.</p>
+        <div class="card-tags">HARDCODED SECRETS</div>
+        <div class="card-actions">
+          <a href="/assets/Hack_This_Site/level_4.pdf">Full Report <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+      <!-- Level 5 -->
+      <div class="card">
+        <h3>🔹 Level 5</h3>
+        <p><strong>Vulnerability:</strong> Information Disclosure</p>
+        <p style="margin-top: 10px;">Leveraged an insecure password reminder mechanism that leaked credentials.</p>
+        <div class="card-tags">CREDENTIAL LEAK</div>
+        <div class="card-actions">
+          <a href="/assets/Hack_This_Site/level_5.pdf">Full Report <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+      <!-- Level 6 -->
+      <div class="card">
+        <h3>🔹 Level 6</h3>
+        <p><strong>Vulnerability:</strong> Weak Encryption</p>
+        <p style="margin-top: 10px;">Reversed a predictable character-shifting algorithm to recover plaintext data.</p>
+        <div class="card-tags">CUSTOM CRYPTO</div>
+        <div class="card-actions">
+          <a href="/assets/Hack_This_Site/level_6.pdf">Full Report <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+      <!-- Level 7 -->
+      <div class="card">
+        <h3>🔹 Level 7</h3>
+        <p><strong>Vulnerability:</strong> Command Injection</p>
+        <p style="margin-top: 10px;">Injected UNIX commands into input fields to bypass restrictions and read system files.</p>
+        <div class="card-tags">UNIX INJECTION</div>
+        <div class="card-actions">
+          <a href="/assets/Hack_This_Site/level_7.pdf">Full Report <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= TAKEAWAYS ================= -->
+  <section class="container">
+    <div class="card" style="background: rgba(56, 189, 248, 0.05); border-color: #38bdf8;">
+      <h3>📌 Key Takeaways</h3>
+      <ul style="margin-top: 15px; color: #9ca3af; padding-left: 20px;">
+        <li>Input validation is the first line of defense in web apps.</li>
+        <li>Never store or process sensitive logic on the client side.</li>
+        <li>Standard cryptographic libraries should always replace custom encryption.</li>
+      </ul>
+      <p style="margin-top: 20px; font-size: 12px; opacity: 0.5;">
+        ⚠️ <strong>Disclaimer:</strong> Educational purposes only. Performed in controlled environments.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <section class="container" style="margin-top: 60px; text-align: center; border-top: 1px solid #1f2937;">
+    <p style="margin-top: 20px; font-size: 14px; opacity: 0.5;">&copy; 2026 Alex Mbogo.</p>
+  </section>
+
+</body>
+</html>
