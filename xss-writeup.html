@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XSS Writeup | Alex Mbogo</title>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">Alex Mbogo</div>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/labs.html">Labs</a>
+  </nav>
+</header>
+
+<section class="container">
+
+  <!-- TITLE -->
+  <div class="writeup-header">
+    <h1>⚡ Stored XSS Exploitation</h1>
+    <p class="subtitle">
+      Exploiting a persistent cross-site scripting vulnerability in a comment system.
+    </p>
+
+    <div class="writeup-tags">
+      <span>XSS</span>
+      <span>Stored</span>
+      <span>Web Security</span>
+      <span>Burp Suite</span>
+    </div>
+  </div>
+
+  <!-- TARGET -->
+  <div class="writeup-section">
+    <h2>🎯 Target Overview</h2>
+    <p>
+      The application allows users to post comments which are rendered to all visitors.
+      User input is stored and displayed without proper sanitization.
+    </p>
+  </div>
+
+  <!-- VULNERABILITY -->
+  <div class="writeup-section">
+    <h2>🐞 Vulnerability</h2>
+    <p>
+      User-controlled input is inserted into the HTML response without encoding,
+      allowing execution of arbitrary JavaScript.
+    </p>
+
+    <div class="code-block">
+      &lt;p&gt;User comment: [INPUT]&lt;/p&gt;
+    </div>
+  </div>
+
+  <!-- STEP 1 -->
+  <div class="writeup-section step">
+    <h2>🧪 Step 1: Identify Injection Point</h2>
+    <p>
+      Submitted a basic payload to test if input is reflected in the response.
+    </p>
+
+    <div class="code-block">
+      test123
+    </div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="writeup-section step">
+    <h2>🧪 Step 2: Test for Script Execution</h2>
+    <p>
+      Injected a script tag to verify if JavaScript execution is possible.
+    </p>
+
+    <div class="code-block">
+      &lt;script&gt;alert(1)&lt;/script&gt;
+    </div>
+
+    <p class="result success">✔ Payload executed successfully</p>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="writeup-section step">
+    <h2>🧪 Step 3: Context Analysis</h2>
+    <p>
+      Determined that input is placed directly inside HTML context,
+      allowing full script injection.
+    </p>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="writeup-section step">
+    <h2>🧪 Step 4: Payload Optimization</h2>
+    <p>
+      Used alternative payloads to bypass filters and ensure reliability.
+    </p>
+
+    <div class="code-block">
+      &lt;img src=1 onerror=alert(document.domain)&gt;
+    </div>
+  </div>
+
+  <!-- IMPACT -->
+  <div class="writeup-section">
+    <h2>💥 Impact</h2>
+    <ul>
+      <li>Session hijacking</li>
+      <li>Cookie theft</li>
+      <li>Defacement</li>
+    </ul>
+  </div>
+
+  <!-- MITIGATION -->
+  <div class="writeup-section">
+    <h2>🛡️ Mitigation</h2>
+    <ul>
+      <li>Output encoding</li>
+      <li>Input validation</li>
+      <li>Use of CSP headers</li>
+    </ul>
+  </div>
+
+</section>
+
+</body>
+</html>
