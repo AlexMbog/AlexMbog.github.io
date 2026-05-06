@@ -337,3 +337,57 @@ section {
   display: block;
   margin-top: 5px;
 }
+/* WRITEUP PAGE */
+
+.writeup-header {
+  margin-bottom: 40px;
+}
+
+.writeup-tags {
+  margin-top: 10px;
+}
+
+.writeup-tags span {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  margin-right: 8px;
+}
+
+/* SECTION */
+.writeup-section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #111827;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+}
+
+/* STEP STYLE */
+.step {
+  border-left: 3px solid #38bdf8;
+}
+
+/* CODE BLOCK */
+.code-block {
+  background: #0b1220;
+  padding: 12px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 13px;
+  margin-top: 10px;
+  color: #38bdf8;
+  overflow-x: auto;
+}
+
+/* RESULT */
+.result {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.success {
+  color: #22c55e;
+}
