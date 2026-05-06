@@ -10,216 +10,81 @@
 
 <body>
 
-  <!-- ================= NAVBAR ================= -->
-  <header class="navbar">
-    <div class="logo">Alex Mbogo</div>
+<header class="navbar">
+  <div class="logo">Alex Mbogo</div>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/labs.html">Labs</a>
+    <a href="/resume.html">Resume</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</header>
 
-    <nav>
-      <a href="/">Home</a>
-      <a href="/projects.html">Projects</a>
-      <a href="/labs.html">Labs</a>
-      <a href="/resume.html">Resume</a>
-      <a href="/contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <!-- ================= HEADER ================= -->
-  <section class="container">
-
-    <div style="margin-top: 40px; margin-bottom: 30px;">
-      <h1>Security Labs & Writeups</h1>
-      <p style="opacity: 0.7; max-width: 750px;">
-        Practical cybersecurity work focused on exploitation techniques, defensive analysis,
-        and real-world system understanding. These labs simulate attacker mindset and system defense.
-      </p>
-    </div>
-
-  </section>
-
-  <!-- ================= LAB TAGS ================= -->
-  <section class="container">
-
-    <div class="highlights" style="margin-bottom: 30px;">
-      <span>OWASP</span>
-      <span>Web Security</span>
-      <span>Penetration Testing</span>
-      <span>Linux</span>
-      <span>Cloud Security</span>
-      <span>Reverse Engineering</span>
-    </div>
-
-  </section>
-
-  <!-- ================= LAB GRID ================= -->
 <section class="container">
+  <h1>Security Labs</h1>
+  <p class="subtitle">
+    Hands-on vulnerability research focused on real-world exploitation techniques and defensive strategies.
+  </p>
+</section>
 
-  <div class="section-header">
-    <h2>🔬 Security Labs</h2>
-    <p class="subtitle">
-      Hands-on vulnerability research and exploitation labs demonstrating real-world attack techniques and defensive strategies.
-    </p>
-  </div>
-
+<section class="container">
   <div class="grid">
 
-    <!-- XSS LAB -->
-    <div class="card lab-card">
-      <div class="lab-top">
-        <span class="lab-badge web">WEB</span>
-        <span class="lab-difficulty intermediate">INTERMEDIATE</span>
-      </div>
-
-      <h3>🔐 Stored XSS Exploitation</h3>
-
+    <!-- XSS CONTEXT -->
+    <div class="card xss-card">
+      <h3>⚡ XSS Context Exploitation</h3>
       <p>
-        Exploited a persistent XSS vulnerability in a comment system to execute malicious scripts across multiple user sessions. Demonstrated cookie theft and mitigation via output encoding.
+        Exploited XSS vulnerabilities across multiple rendering contexts,
+        adapting payloads to bypass filters and execute JavaScript.
       </p>
 
-      <div class="lab-tools">
-        <span>Burp Suite</span>
-        <span>HTML</span>
-        <span>JavaScript</span>
+      <div class="context-block">
+        <h4>HTML Context</h4>
+        <code>&lt;script&gt;alert(1)&lt;/script&gt;</code>
+      </div>
+
+      <div class="context-block">
+        <h4>Attribute Context</h4>
+        <code>" onmouseover=alert(1)</code>
+      </div>
+
+      <div class="context-block">
+        <h4>Restricted Context</h4>
+        <code>&lt;svg onload=alert(1)&gt;</code>
       </div>
 
       <div class="card-actions">
-        <a href="#">Writeup →</a>
+        <a href="#">Full Writeup</a>
       </div>
     </div>
-
-
-    <!-- SQLi LAB -->
-    <div class="card lab-card">
-      <div class="lab-top">
-        <span class="lab-badge web">WEB</span>
-        <span class="lab-difficulty advanced">ADVANCED</span>
-      </div>
-
-      <h3>🧪 SQL Injection Attacks</h3>
-
-      <p>
-        Performed manual SQL injection attacks including UNION-based and error-based techniques to extract database data and bypass authentication mechanisms.
-      </p>
-
-      <div class="lab-tools">
-        <span>Burp Suite</span>
-        <span>MySQL</span>
-        <span>HTTP Requests</span>
-      </div>
-
-      <div class="card-actions">
-        <a href="/assets/ProjectFile/Sql/SqlJournal.pdf">Journal</a>
-        <a href="/assets/ProjectFile/Sql/SqlInjectionDemo.pdf">Demo</a>
-      </div>
-    </div>
-
 
     <!-- PRIV ESC -->
-    <div class="card lab-card">
-      <div class="lab-top">
-        <span class="lab-badge system">SYSTEM</span>
-        <span class="lab-difficulty advanced">ADVANCED</span>
-      </div>
-
+    <div class="card">
       <h3>🛡️ Linux Privilege Escalation</h3>
-
-      <p>
-        Identified misconfigured SUID binaries and exploited privilege escalation paths using GTFOBins techniques to gain root access.
-      </p>
-
-      <div class="lab-tools">
-        <span>Kali Linux</span>
-        <span>GTFOBins</span>
-        <span>Bash</span>
-      </div>
-
+      <p>Exploited misconfigurations to gain root access.</p>
       <div class="card-actions">
-        <a href="/assets/Home_Lab/PriviledgeEscalation.pdf">View Lab →</a>
+        <a href="/assets/Home_Lab/PriviledgeEscalation.pdf">View</a>
       </div>
     </div>
-
 
     <!-- RECON -->
-    <div class="card lab-card">
-      <div class="lab-top">
-        <span class="lab-badge recon">RECON</span>
-        <span class="lab-difficulty intermediate">INTERMEDIATE</span>
-      </div>
-
-      <h3>🌐 Web App Reconnaissance</h3>
-
-      <p>
-        Conducted active and passive reconnaissance using directory brute forcing and port scanning to map attack surfaces.
-      </p>
-
-      <div class="lab-tools">
-        <span>Nmap</span>
-        <span>Gobuster</span>
-        <span>OSINT</span>
-      </div>
-
-      <div class="card-actions">
-        <a href="#">Details →</a>
-      </div>
+    <div class="card">
+      <h3>🌐 Reconnaissance</h3>
+      <p>Mapped attack surface using scanning and enumeration tools.</p>
     </div>
-
-
-    <!-- AUTH BYPASS -->
-    <div class="card lab-card">
-      <div class="lab-top">
-        <span class="lab-badge web">WEB</span>
-        <span class="lab-difficulty intermediate">INTERMEDIATE</span>
-      </div>
-
-      <h3>🔍 Authentication Bypass</h3>
-
-      <p>
-        Explored weak authentication mechanisms including session mismanagement and token manipulation to bypass login systems.
-      </p>
-
-      <div class="lab-tools">
-        <span>Cookies</span>
-        <span>JWT</span>
-        <span>Sessions</span>
-      </div>
-
-      <div class="card-actions">
-        <a href="#">Writeup →</a>
-      </div>
-    </div>
-
 
     <!-- HACKTHISITE -->
-    <div class="card lab-card highlight-card">
-      <div class="lab-top">
-        <span class="lab-badge platform">PLATFORM</span>
-        <span class="lab-difficulty mixed">MULTI-LEVEL</span>
-      </div>
-
+    <div class="card">
       <h3>🧠 HackThisSite Labs</h3>
-
-      <p>
-        Completed multiple web security challenges involving authentication flaws, command injection, and weak cryptography.
-      </p>
-
-      <div class="lab-tools">
-        <span>Web Exploitation</span>
-        <span>Command Injection</span>
-        <span>Crypto</span>
-      </div>
-
+      <p>Web security challenges covering auth flaws and injection.</p>
       <div class="card-actions">
-        <a href="/labs/hackthissite/">View All Writeups →</a>
+        <a href="/labs/hackthissite/">View Labs</a>
       </div>
     </div>
-    
 
   </div>
 </section>
-
-  <!-- ================= FOOTER SPACING ================= -->
-  <section class="container" style="margin-top: 60px; opacity: 0.5;">
-    <p>More labs added as I continue offensive security research and practice.</p>
-  </section>
 
 </body>
 </html>
