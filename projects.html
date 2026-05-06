@@ -11,6 +11,7 @@
 
 <body>
 
+<!-- ================= NAVBAR ================= -->
 <header class="navbar">
   <div class="logo">Alex Mbogo</div>
   <nav>
@@ -22,38 +23,55 @@
   </nav>
 </header>
 
+<!-- ================= HEADER ================= -->
 <section class="container">
   <div class="intro">Portfolio Showcase</div>
   <h1>Projects & Case Studies</h1>
   <p class="subtitle">
-    Real-world security simulations, system design, and vulnerability analysis across web, cloud, and infrastructure environments.
+    Real-world security simulations, system design, and vulnerability analysis across cloud, web, and infrastructure environments.
   </p>
 </section>
 
+<!-- ================= FILTER STRIP ================= -->
 <section class="container">
+  <div class="highlights">
+    <span>All</span>
+    <span>Cybersecurity</span>
+    <span>Cloud Security</span>
+    <span>Development</span>
+    <span>Data Science</span>
+  </div>
+</section>
+
+<!-- ================= PROJECT GRID ================= -->
+<section class="container">
+
   <div class="grid">
 
     <!-- SOC -->
     <div class="card">
-      <h3>🔐 SOC Detection & Analysis Lab</h3>
+      <div class="card-header">
+        <h3>🔐 SOC Detection & Analysis</h3>
+      </div>
       <p>
-        Simulated security monitoring environment analyzing logs, detecting suspicious activity,
-        and documenting incident response workflows.
+        Simulated SIEM environment focused on log analysis, threat detection, and incident response workflows.
       </p>
       <div class="card-tags">SIEM • LOG ANALYSIS • ALERTING</div>
       <div class="card-actions">
-        <a href="/soc.html">View Analysis</a>
+        <a href="/soc.html">View Analysis <i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
 
     <!-- HOME LAB -->
     <div class="card">
-      <h3>🏠 Home Lab Environment</h3>
+      <div class="card-header">
+        <h3>🏠 Home Lab Environment</h3>
+      </div>
       <p>
-        Built an isolated attack/defense lab using VirtualBox, Kali Linux, and Windows VMs
-        to simulate real-world exploitation scenarios.
+        Isolated attack/defense lab using VirtualBox, Kali Linux, and Windows VMs for real exploitation practice.
       </p>
       <div class="card-tags">KALI • WINDOWS • PRIV-ESC • NETWORKING</div>
+
       <div class="card-actions">
         <a href="/assets/Home_Lab/setupLab.pdf">Setup</a>
         <a href="/assets/Home_Lab/PriviledgeEscalation.pdf">PrivEsc</a>
@@ -62,12 +80,14 @@
 
     <!-- SQLI -->
     <div class="card">
-      <h3>💉 SQL Injection Case Study</h3>
+      <div class="card-header">
+        <h3>💉 SQL Injection Case Study</h3>
+      </div>
       <p>
-        End-to-end SQL injection assessment including discovery, exploitation,
-        data extraction, and mitigation techniques.
+        Full lifecycle of SQL injection: discovery, exploitation, extraction, and mitigation.
       </p>
       <div class="card-tags">SQLI • DATABASE • INPUT VALIDATION</div>
+
       <div class="card-actions">
         <a href="/assets/ProjectFile/Sql/SqlJournal.pdf">Journal</a>
         <a href="/assets/ProjectFile/Sql/SqlInjectionDemo.pdf">Demo</a>
@@ -76,31 +96,75 @@
 
     <!-- CLOUD -->
     <div class="card">
-      <h3>☁️ Cloud Security Misconfigurations</h3>
+      <div class="card-header">
+        <h3>☁️ Cloud Security</h3>
+      </div>
       <p>
-        Identified insecure IAM roles, overly permissive access policies,
-        and storage misconfigurations in cloud environments.
+        Analysis of IAM misconfigurations, overly permissive roles, and insecure cloud storage setups.
       </p>
       <div class="card-tags">AWS • IAM • S3 • RBAC</div>
+
       <div class="card-actions">
-        <a href="#">Writeups</a>
+        <a href="/cloudSecurity.html">Writeups <i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
 
     <!-- MOBILE -->
     <div class="card">
-      <h3>📱 Mobile Security Concepts</h3>
+      <div class="card-header">
+        <h3>📱 Mobile Security Concepts</h3>
+      </div>
       <p>
-        Explored mobile vulnerabilities and secure API authentication
-        flows in a React Native application.
+        Explored API authentication flows and mobile-first security vulnerabilities in React Native apps.
       </p>
       <div class="card-tags">REACT NATIVE • API • AUTH</div>
+
       <div class="card-actions">
         <a href="/assets/Mobile_UI/MamaMbog.jpg">Preview</a>
       </div>
     </div>
 
+    <!-- FULL STACK -->
+    <div class="card">
+      <div class="card-header">
+        <h3>💻 Full Stack Portfolio</h3>
+      </div>
+      <p>
+        Personal branding system with responsive UI and backend integration.
+      </p>
+      <div class="card-tags">HTML • CSS • JS • REACT • PHP</div>
+
+      <div class="card-actions">
+        <a href="https://github.com/AlexMbog/Porfolio">
+          View Repo <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- UI/UX -->
+    <div class="card">
+      <div class="card-header">
+        <h3>🎨 Hotel Menu Design</h3>
+      </div>
+      <p>
+        Professional hospitality UI/UX design for restaurant branding.
+      </p>
+      <div class="card-tags">DESIGN • BRANDING • PDF</div>
+
+      <div class="card-actions">
+        <a href="/assets/Graphics/MenuCardDesign.pdf">View PDF</a>
+      </div>
+    </div>
+
   </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<section class="container" style="margin-top: 60px; text-align: center; border-top: 1px solid #1f2937;">
+  <p style="margin-top: 20px; font-size: 14px; opacity: 0.5;">
+    &copy; 2026 Alex Mbogo. All rights reserved.
+  </p>
 </section>
 
 </body>
