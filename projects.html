@@ -6,119 +6,102 @@
   <title>Projects | Alex Mbogo</title>
 
   <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
 </head>
+
 <body>
 
-  <!-- ================= NAVBAR ================= -->
-  <header class="navbar">
-    <div class="logo">Alex Mbogo</div>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/projects.html">Projects</a>
-      <a href="/labs.html">Labs</a>
-      <a href="/resume.html">Resume</a>
-      <a href="/contact.html">Contact</a>
-    </nav>
-  </header>
+<header class="navbar">
+  <div class="logo">Alex Mbogo</div>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/labs.html">Labs</a>
+    <a href="/resume.html">Resume</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</header>
 
-  <!-- ================= PAGE HEADER ================= -->
-  <section class="container">
-    <div style="margin-top: 40px; margin-bottom: 30px;">
-      <div class="intro">Portfolio Showcase</div>
-           <h1>Projects & Case Studies</h1>
-      <p style="opacity: 0.7; max-width: 700px;">
-        A collection of hands-on security labs, cloud systems, and engineering projects.
-        Each project focuses on real-world problem solving, not just demos.
-      </p>
-    </div>
-  </section>
+<section class="container">
+  <div class="intro">Portfolio Showcase</div>
+  <h1>Projects & Case Studies</h1>
+  <p class="subtitle">
+    Real-world security simulations, system design, and vulnerability analysis across web, cloud, and infrastructure environments.
+  </p>
+</section>
 
-  <!-- ================= FILTER STRIP ================= -->
-  <section class="container" style="padding-top: 0; padding-bottom: 20px;">
-    <div class="highlights">
-      <span>All</span>
-      <span>Cybersecurity</span>
-      <span>Cloud Security</span>
-      <span>Development</span>
-      <span>Data Science</span>
-    </div>
-  </section>
+<section class="container">
+  <div class="grid">
 
-  <!-- ================= PROJECT GRID ================= -->
-  <section class="container">
-    <div class="grid">
-
-      <!-- PROJECT 1: Cybersecurity -->
+    <!-- SOC -->
     <div class="card">
-        <h3>🔐CyberSecurity Projects</h3>
-        <p>
-          Vulnerability analysis, exploitation techniques, and writeups from real-world security challenges.
-        </p>
-        <p style="margin-top: 10px; opacity: 0.7;">
-         HOMELABS • SOC ANALYSIS • OWASP • XSS • SQL Injection • Privilege Escalation
-        </p>
-        <a href="/cybersecurity.html">Learn more <i class="fa-solid fa-circle-arrow-right"></i></a>
+      <h3>🔐 SOC Detection & Analysis Lab</h3>
+      <p>
+        Simulated security monitoring environment analyzing logs, detecting suspicious activity,
+        and documenting incident response workflows.
+      </p>
+      <div class="card-tags">SIEM • LOG ANALYSIS • ALERTING</div>
+      <div class="card-actions">
+        <a href="/soc.html">View Analysis</a>
       </div>
-
-      
-      <!-- PROJECT 2: Cloud Security -->
-      <div class="card">
-        <h3>☁️ Cloud Security</h3>
-        <p>Secure cloud deployment using IAM, RBAC models, and Sentinel/CloudWatch monitoring.</p>
-        <div class="card-tags">AWS • AZURE • IAM • SENTINEL</div>
-        <div class="card-actions">
-          <a href="/cloudSecurity.html">View Labs <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-        </div>
-      </div>
-
-      <!-- PROJECT 3: Data Science -->
-      <div class="card">
-        <h3>📊 Data Science & ML</h3>
-        <p>Python-based data analysis and machine learning experiments using Scikit-learn.</p>
-        <div class="card-tags">PYTHON • PANDAS • ML</div>
-        <div class="card-actions">
-          <a href="https://github.com/AlexMbog/DataScienceProjects">GitHub Repo <i class="fa-brands fa-github"></i></a>
-        </div>
-      </div>
-
-      <!-- PROJECT 4: Mobile Dev -->
-      <div class="card">
-        <h3>📱 Mobile Security Concepts</h3>
-        <p>React Native grocery ordering system featuring a mobile-first UX design for local vendors.</p>
-        <div class="card-tags">REACT NATIVE • EXPO • UI/UX</div>
-        <div class="card-actions">
-          <a href="/assets/Mobile_UI/MamaMbog.jpg">Preview <i class="fa-solid fa-image"></i></a>
-        </div>
-      </div>
-
-      <!-- PROJECT 5: Web Dev -->
-      <div class="card">
-        <h3>💻 Full Stack Portfolio</h3>
-        <p>Responsive website development and backend integration for personal branding.</p>
-        <div class="card-tags">HTML5 • CSS3 • JAVASCRIPT • REACT • REACTNATIVE • PHP </div>
-        <div class="card-actions">
-          <a href="https://github.com/AlexMbog/Porfolio">View Repo <i class="fa-brands fa-github"></i></a>
-        </div>
-      </div>
-
-      <!-- PROJECT 6: UI/UX -->
-      <div class="card">
-        <h3>🎨 Hotel Menu Design</h3>
-        <p>Clean and modern restaurant menu design created for a professional hospitality brand.</p>
-        <div class="card-tags">DESIGN • BRANDING • PDF</div>
-        <div class="card-actions">
-          <a href="/assets/Graphics/MenuCardDesign.pdf">View PDF <i class="fa-solid fa-file-pdf"></i></a>
-        </div>
-      </div>
-
     </div>
-  </section>
 
-  <!-- ================= FOOTER ================= -->
-  <section class="container" style="margin-top: 60px; text-align: center; border-top: 1px solid #1f2937;">
-    <p style="margin-top: 20px; font-size: 14px; opacity: 0.5;">&copy; 2026 Alex Mbogo. All rights reserved.</p>
-  </section>
+    <!-- HOME LAB -->
+    <div class="card">
+      <h3>🏠 Home Lab Environment</h3>
+      <p>
+        Built an isolated attack/defense lab using VirtualBox, Kali Linux, and Windows VMs
+        to simulate real-world exploitation scenarios.
+      </p>
+      <div class="card-tags">KALI • WINDOWS • PRIV-ESC • NETWORKING</div>
+      <div class="card-actions">
+        <a href="/assets/Home_Lab/setupLab.pdf">Setup</a>
+        <a href="/assets/Home_Lab/PriviledgeEscalation.pdf">PrivEsc</a>
+      </div>
+    </div>
+
+    <!-- SQLI -->
+    <div class="card">
+      <h3>💉 SQL Injection Case Study</h3>
+      <p>
+        End-to-end SQL injection assessment including discovery, exploitation,
+        data extraction, and mitigation techniques.
+      </p>
+      <div class="card-tags">SQLI • DATABASE • INPUT VALIDATION</div>
+      <div class="card-actions">
+        <a href="/assets/ProjectFile/Sql/SqlJournal.pdf">Journal</a>
+        <a href="/assets/ProjectFile/Sql/SqlInjectionDemo.pdf">Demo</a>
+      </div>
+    </div>
+
+    <!-- CLOUD -->
+    <div class="card">
+      <h3>☁️ Cloud Security Misconfigurations</h3>
+      <p>
+        Identified insecure IAM roles, overly permissive access policies,
+        and storage misconfigurations in cloud environments.
+      </p>
+      <div class="card-tags">AWS • IAM • S3 • RBAC</div>
+      <div class="card-actions">
+        <a href="#">Writeups</a>
+      </div>
+    </div>
+
+    <!-- MOBILE -->
+    <div class="card">
+      <h3>📱 Mobile Security Concepts</h3>
+      <p>
+        Explored mobile vulnerabilities and secure API authentication
+        flows in a React Native application.
+      </p>
+      <div class="card-tags">REACT NATIVE • API • AUTH</div>
+      <div class="card-actions">
+        <a href="/assets/Mobile_UI/MamaMbog.jpg">Preview</a>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 </body>
 </html>
