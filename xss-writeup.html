@@ -125,7 +125,103 @@
       <li>Use of CSP headers</li>
     </ul>
   </div>
+<div class="card">
 
+  <h3>⚡ XSS Context Exploitation</h3>
+
+  <p>
+    Exploited XSS vulnerabilities across multiple rendering
+    contexts while adapting payloads to bypass filters.
+  </p>
+
+  <div class="card-tags">
+    HTML • Attributes • SVG • WAF Bypass
+  </div>
+
+  <div class="context-block">
+    <h4>HTML Context</h4>
+    <code>&lt;script&gt;alert(1)&lt;/script&gt;</code>
+  </div>
+
+  <div class="context-block">
+    <h4>Attribute Context</h4>
+    <code>" autofocus onfocus=alert(1) x="</code>
+  </div>
+
+  <div class="context-block">
+    <h4>SVG Context</h4>
+    <code>&lt;svg onload=alert(1)&gt;</code>
+  </div>
+
+  <!-- PDF LINKS -->
+  <div class="pdf-links">
+
+    <a href="assets/pdfs/xss-html-context.pdf" target="_blank">
+      <i class="fa-solid fa-file-pdf"></i>
+      <div class="card">
+
+  <h3>⚡ XSS Context Exploitation</h3>
+
+  <p>
+    Exploited XSS vulnerabilities across multiple rendering
+    contexts while adapting payloads to bypass filters.
+  </p>
+
+  <div class="card-tags">
+    HTML • Attributes • SVG • WAF Bypass
+  </div>
+
+  <div class="context-block">
+    <h4>HTML Context</h4>
+    <code>&lt;script&gt;alert(1)&lt;/script&gt;</code>
+  </div>
+
+  <div class="context-block">
+    <h4>Attribute Context</h4>
+    <code>" autofocus onfocus=alert(1) x="</code>
+  </div>
+
+  <div class="context-block">
+    <h4>SVG Context</h4>
+    <code>&lt;svg onload=alert(1)&gt;</code>
+  </div>
+
+  <!-- PDF LINKS -->
+  <div class="pdf-links">
+
+    <a href="assets/pdfs/xss-html-context.pdf" target="_blank">
+      <i class="fa-solid fa-file-pdf"></i>
+     XSS between HTML tags
+    </a>
+
+    <a href="assets/pdfs/xss-attribute-context.pdf" target="_blank">
+      <i class="fa-solid fa-file-pdf"></i>
+      XSS IN HTML TAG ATTRIBUTES
+    </a>
+
+    <a href="assets/pdfs/xss-svg-bypass.pdf" target="_blank">
+      <i class="fa-solid fa-file-pdf"></i>
+         XSS into JavaScript
+    </a>
+
+  </div>
+
+</div>
+    </a>
+
+    <a href="assets/pdfs/xss-attribute-context.pdf" target="_blank">
+      <i class="fa-solid fa-file-pdf"></i>
+      Attribute Context PDF
+    </a>
+
+    <a href="assets/pdfs/xss-svg-bypass.pdf" target="_blank">
+      <i class="fa-solid fa-file-pdf"></i>
+      SVG Bypass PDF
+    </a>
+
+  </div>
+
+</div>
 </section>
 
 </body>
