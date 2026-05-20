@@ -392,97 +392,66 @@ p {
   RECENT WORK SECTION
 ========================= */
 .recent-container {
-  width: 100%;
-  max-width: 1600px ;
+  max-width: 1280px;
   margin: 0 auto;
+  padding: 100px 24px;
 }
-.recent-header {
-  margin-bottom: 30px;
-}
+
 .recent-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 24px;
-  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
 }
 
 .recent-row {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  background-color: #0b111e;
-  border: 1px solid #1f2937;
-  border-radius: 16px;
+  background: linear-gradient(145deg, rgba(15,23,42,0.95), rgba(10,15,25,0.98));
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 22px;
   overflow: hidden;
-  transition: all 0.25s ease;
+  transition: 0.3s ease;
 }
 
 .recent-row:hover {
-  transform: translateY(-4px);
-  border-color: #38bdf8;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  transform: translateY(-6px);
+  border-color: rgba(56,189,248,0.35);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.45);
 }
 
-/* 1. New Upper Container Structure for the Badge Graphics */
 .recent-img {
   width: 100%;
-  height: 180px; /* Explicit layout height block frame area */
-  object-fit: contain; /* Prevents your custom circles from clipping or distortion */
-  background: rgba(
-    0,
-    0,
-    0,
-    0.2
-  ); /* Darkened semi-opaque header backdrop element */
-  padding: 16px; /* Generates safe visual breathing room around your badges */
-  border-bottom: 1px solid #1f2937;
+  height: 220px;
+  object-fit: cover;
 }
 
-/* 2. Isolated Lower Layout Text Block Container Padding */
 .recent-content {
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 20px; /* Keeps text fields away from raw card boundaries */
 }
 
-/* 3. Distinct Left-Aligned Headlines */
-.recent-col1 h2 {
-  color: #f9fafb;
-  margin: 0;
-  font-size: 1.05rem;
-  font-weight: 600;
-  line-height: 1.4;
-  text-align: left;
-}
-
-/* 4. Horizontal Inline Metadata Row Alignment formatting */
-.recent-col1 h3 {
+.recent-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
   color: #9ca3af;
-  display: inline-block;
-  margin: 8px 12px 0 0; /* Generates micro-gaps separating your date details */
   font-size: 0.75rem;
-  font-weight: 400;
-  text-align: left;
 }
 
-/* 5. Left-Aligned Small Tag Badge Arrays */
 .recent-col2 {
   display: flex;
-  gap: 6px;
+  gap: 8px;
   flex-wrap: wrap;
-  justify-content: flex-start; /* Pins tags tightly against the left boundary margin */
-  margin-top: 4px;
 }
 
 .recent-col2 h4 {
-  color: #38bdf8;
-  border: 1px solid rgba(56, 189, 248, 0.3);
-  background-color: rgba(56, 189, 248, 0.04);
-  padding: 3px 8px;
-  border-radius: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
   font-size: 0.65rem;
+  color: #38bdf8;
+  border: 1px solid rgba(56,189,248,0.3);
+  background: rgba(56,189,248,0.04);
   margin: 0;
-  text-transform: uppercase;
-  font-family: monospace;
 }
