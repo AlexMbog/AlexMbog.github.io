@@ -21,7 +21,7 @@ body {
 ========================= */
 
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -278,7 +278,7 @@ p {
 ========================= */
 
 .platforms-section {
-  padding: 100px 24px;
+  padding: 40px 24px;
 }
 
 .platforms-header {
