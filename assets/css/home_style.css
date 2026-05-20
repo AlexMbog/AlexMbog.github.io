@@ -240,7 +240,9 @@ p {
   color: #94a3b8;
   font-size: 0.85rem;
 }
-
+.highlights{
+margin-top:30px;
+}
 /* =========================
    PROFILE IMAGE
 ========================= */
