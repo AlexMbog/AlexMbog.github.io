@@ -482,3 +482,99 @@ p {
     margin-top: 30px;
   }
 }
+/* =========================
+   FEATURED SOC CARD
+========================= */
+
+.soc-feature-card {
+  background: linear-gradient(
+    145deg,
+    rgba(239,68,68,.08),
+    rgba(15,23,42,.95)
+  );
+
+  border: 1px solid rgba(239,68,68,.25);
+
+  border-radius: 18px;
+
+  padding: 28px;
+
+  transition: .3s ease;
+}
+
+.soc-feature-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 20px 50px rgba(0,0,0,.45),
+    0 0 20px rgba(239,68,68,.15);
+}
+
+.soc-feature-header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.soc-logo img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.soc-badge {
+  display: inline-block;
+
+  background: rgba(239,68,68,.15);
+
+  border: 1px solid rgba(239,68,68,.3);
+
+  color: #fca5a5;
+
+  padding: 6px 12px;
+
+  border-radius: 999px;
+
+  font-size: 11px;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 10px;
+}
+
+.soc-stats {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(140px, 1fr));
+
+  gap: 15px;
+
+  margin-top: 25px;
+}
+
+.stat {
+  background: #111827;
+
+  border: 1px solid #1f2937;
+
+  border-radius: 12px;
+
+  padding: 15px;
+}
+
+.stat span {
+  display: block;
+
+  font-size: 12px;
+
+  color: #94a3b8;
+
+  margin-bottom: 6px;
+}
+
+.stat strong {
+  font-size: 22px;
+
+  color: #fff;
+}
