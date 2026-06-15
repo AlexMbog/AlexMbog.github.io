@@ -367,6 +367,8 @@ margin-top:30px;
 
   border-radius: 22px;
 
+  position: relative;
+
   background: linear-gradient(
     145deg,
     rgba(15, 23, 42, 0.95),
